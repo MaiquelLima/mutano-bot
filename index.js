@@ -21,7 +21,7 @@ const bot = new Aoijs.Bot({
   events:{
     timeout:true,
     functionError: true,
-    music: false
+    music: true
   }
 })
 
