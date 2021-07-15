@@ -48,17 +48,6 @@ bot.readyCommand({
 require('./utils/variables')(bot);
 require('./utils/stats')(bot);
 
-// Loop command channel voice in Official Support Server
-
-bot.loopCommand({
-code: `
-$joinVC[859623453418324008]
-`,
-channel: "859623453418324008",
-executeOnStartup: true,
-every: 100000
-})
-
 // Logs de Comandos
 
 bot.command({
