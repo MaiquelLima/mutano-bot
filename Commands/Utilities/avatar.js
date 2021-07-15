@@ -1,0 +1,36 @@
+module.exports = ({
+    name: "avatar",
+    description: "Mostra o Avatar seu ou do usuario desejado.",
+    code: `
+  $if[$getServerVar[lang]==pt]
+  
+  $author[Avatar de $username[$findUser[$message;yes]]]
+  
+  $description[<@$findUser[$message;yes]> Que foto zika meu amigo!  Muito bom gosto :3!
+  
+  __Downloads__
+  [webp\\]($replaceText[$replaceText[$replaceText[$replaceText[$userAvatar[$findUser[$message]?size=4096];gif;webp];png;webp];jpg;webp];jpeg;webp]) | [png\\]($replaceText[$replaceText[$replaceText[$replaceText[$userAvatar[$findUser[$message]?size=4096];gif;png];png;png];jpg;png];jpeg;png]) | [jpg\\]($replaceText[$replaceText[$replaceText[$replaceText[$userAvatar[$findUser[$message]?size=4096];gif;jpg];png;jpg];jpg;jpg];jpeg;jpg]) | [jpeg\\]($replaceText[$replaceText[$replaceText[$replaceText[$userAvatar[$findUser[$message]?size=4096];gif;jpeg];png;jpeg];jpg;jpeg];jpeg;jpeg])
+  $image[$replaceText[$userAvatar[$findUser[$message]?size=4096];webp;png;gif]]
+  
+  $footer[Pedido por $username]
+  $color[#1ad46d]
+  $cooldown[5s;🙆‍♀️・Vai com calma pequeno caçador. Espere %time% para executar meus comandos denovo!]
+  $onlyIf[$getGlobalUserVar[bl;$authorID]==yes;** :x: » Você está na minha blacklist, não pode executar meus comandos!**]
+  $elseif[$getServerVar[lang]==en]
+  
+  $author[$username[$findUser[$message;yes]]'s Avatar]
+  $description[
+  <@$findUser[$message;yes]> What an epic picture!  You have really good taste :3!
+  
+  __Downloads__
+  [webp\\]($replaceText[$replaceText[$replaceText[$replaceText[$userAvatar[$findUser[$message]?size=4096];gif;webp];png;webp];jpg;webp];jpeg;webp]) | [png\\]($replaceText[$replaceText[$replaceText[$replaceText[$userAvatar[$findUser[$message]?size=4096];gif;png];png;png];jpg;png];jpeg;png]) | [jpg\\]($replaceText[$replaceText[$replaceText[$replaceText[$userAvatar[$findUser[$message]?size=4096];gif;jpg];png;jpg];jpg;jpg];jpeg;jpg]) | [jpeg\\]($replaceText[$replaceText[$replaceText[$replaceText[$userAvatar[$findUser[$message]?size=4096];gif;jpeg];png;jpeg];jpg;jpeg];jpeg;jpeg])
+  $image[$replaceText[$userAvatar[$findUser[$message]?size=4096];webp;png;gif]]
+  
+  $footer[Executed by: $username]
+  $color[#1ad46d]
+  $cooldown[5s;🙆‍♀️・Take it easy ,little hunter. wait %time% to execute my commands again!]
+  $onlyIf[$getGlobalUserVar[bl;$authorID]==yes;** :x: » You are in my blacklist, you can't execute my commands!**]
+  $endelseif
+  $endif
+  `
+  })
