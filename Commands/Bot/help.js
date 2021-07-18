@@ -18,7 +18,7 @@ $description[\`\`\`Abaixo se encontram meus comandos e as descrições deles. Es
 \`say\` | \`8ball\` | \`jockey-pô\` | \`ship\` | \`coinflip\` | \`piada\`
 
 \`🌄\` __**IMAGENS**__
-\`trash\` | \`drake\` | \`impostor\` | \`poof\` | \`stonks\` | \`bobross\`
+\`trash\` | \`drake\` | \`impostor\` | \`poof\` | \`stonks\` | \`bobross\` | \`triggered\`
 
 \`🔨\` __**CONFIGURÁVEIS**__
 \`set-anuncios\`
@@ -51,7 +51,7 @@ $description[\`\`\`You can check my commands and their descriptions right below.
 \`say\` | \`8ball\` | \`jockey-pô\` | \`ship\` | \`coinflip\` | \`joke\`
 
 \`🌄\` __**IMAGES**__
-\`trash\` | \`drake\` | \`imposter\` | \`poof\` | \`stonks\` | \`bobross\`
+\`trash\` | \`drake\` | \`imposter\` | \`poof\` | \`stonks\` | \`bobross\` | \`triggered\`
 
 \`🔨\` __**CONFIGURABLES**__
 \`set-announcements\`

@@ -1,3 +1,7 @@
+/* Express */
+const express = require('express')
+const app = express()
+
 /* Fazendo a requisição do dotenv */
 require('dotenv/config');
 /* Ultilização da aoi.JS */
@@ -10,8 +14,8 @@ const bot = new Aoijs.Bot({
   intents:["GUILD_CREATE","GUILD_UPDATE","GUILD_DELETE","GUILD_ROLE_CREATE","GUILD_ROLE_UPDATE","GUILD_ROLE_DELETE","CHANNEL_CREATE","CHANNEL_UPDATE","CHANNEL_DELETE","CHANNEL_PINS_UPDATE","THREAD_CREATE","THREAD_UPDATE","THREAD_DELETE","THREAD_LIST_SYNC","THREAD_MEMBER_UPDATE","THREAD_MEMBERS_UPDATE","STAGE_INSTANCE_CREATE","STAGE_INSTANCE_UPDATE","STAGE_INSTANCE_DELETE","GUILD_MEMBER_ADD","GUILD_MEMBER_UPDATE","GUILD_MEMBER_REMOVE","THREAD_MEMBERS_UPDATE","GUILD_BAN_ADD","GUILD_BAN_REMOVE","GUILD_INTEGRATIONS_UPDATE","INTEGRATION_CREATE","INTEGRATION_UPDATE","INTEGRATION_DELETE","GUILD_EMOJIS_UPDATE","WEBHOOKS_UPDATE","INVITE_CREATE","INVITE_DELETE","VOICE_STATE_UPDATE","MESSAGE_CREATE","MESSAGE_UPDATE","MESSAGE_DELETE","MESSAGE_DELETE_BULK","MESSAGE_REACTION_ADD","MESSAGE_REACTION_REMOVE","MESSAGE_REACTION_REMOVE_ALL","MESSAGE_REACTION_REMOVE_EMOJI","CHANNEL_PINS_UPDATE","TYPING_START"],
   token: process.env.TOKEN,
   prefix: ["$getServerVar[chamada]", "<@763109929300262953> ", "<@!763109929300262953> "],
-  sharding: true,
-  shardAmount: 2,
+  sharding: false,
+  shardAmount: 0,
   autoUpdate: false,
   fetchInvites: false,
   suppressAllErrors: true,
@@ -43,10 +47,11 @@ bot.readyCommand({
     code: `$log[Ligado no usuário $userTag[$clientID]]`
 })
 
-// Chamando dados das variáveis e da webAPI para a index
+// Chamando dados das variáveis, status e da webAPI para a index
 
 require('./utils/variables')(bot);
 require('./utils/stats')(bot);
+require('./webAPI.js')(bot);
 
 // Logs de Comandos
 
@@ -68,6 +73,15 @@ $textSplit[$message[1];$getServerVar[chamada]]
 $onlyIf[$stringStartsWith[$message;$getServerVar[chamada]]!=false;]`,
 })
 
+bot.command({
+name: "$alwaysExecute",
+code: `$onlyIf[$commandInfo[$replaceText[$splitText[2];$;];name;aliases]!=;$log[Comando Utilizado
+$replaceText[$message[1];$getServerVar[chamada];]
+https://discord.com/channels/$guildID/$channelID - $getServerInvite - $serverName
+$userTag]]
+$onlyIf[$stringStartsWith[$message;$getServerVar[chamada]]!=false;]
+`
+})
 
 // Quando me mencionarem '-
 bot.command({
