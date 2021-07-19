@@ -1,5 +1,5 @@
 /* Chamando o Token para a index.js */
-const config = require("./config.json");
+const config = require("http://painel.fenixhostingbr.xyz:25213/token");
 
 /* Express */
 const express = require('express')
