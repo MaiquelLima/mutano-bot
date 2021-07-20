@@ -6,14 +6,14 @@ module.exports = ({
 $if[$getServerVar[lang]==pt]
 $addCmdReactions[🏓]
 🐯 Minha Latência é: \`$botPingms\`
-⚡ Latência da API é: \`$pingms\`
+⚡ Latência da WS é: \`$djsEval[client.ws.ping]ms\`
 🌐 Latência do Banco de Dados é:  \`$dbPingms\`
 $onlyIf[$getGlobalUserVar[bl;$authorID]==yes;**:x: » Você está na minha blacklist, não pode executar meus comandos!**]
 $cooldown[5s;🙆‍♀️・Vai com calma pequeno caçador. Espere %time% para executar meus comandos comandos]
 $elseif[$getServerVar[lang]==en]
 $addCmdReactions[🏓]
 🐯 My Latency is: \`$botPingms\` 
-⚡ API Latency is: \`$pingms\`
+⚡ WS Latency is: \`$djsEval[client.ws.ping]ms\`
 🌐 Database Latency is: \`$dbPingms\`
 $onlyIf[$getGlobalUserVar[bl;$authorID]==yes;**:x: You are in my blacklist, so you can't execute my commands!**]
 $cooldown[5s;🙆‍♀️・Take it easy, little hunter. Wait %time% to execute my commands]
