@@ -111,7 +111,7 @@ app.get("/users/:id/banner/:extension/:size", async(req, res) => {
       headers: { 
         Authorization: 'Bot '+client.token
       }
-    }).then(a => a.json()).then(b => res.send(`<script> window.location.href = `https://cdn.discordapp.com/banners/${id}/${b.banner}.${extension || 'png'}?size=${size || 2048} </script>`))
+    }).then(a => a.json()).then(b => res.send(`<script> window.location.href = https://cdn.discordapp.com/banners/${id}/${b.banner}.${extension || 'png'}?size=${size || 2048} </script>`))
 
   }
   
