@@ -106,6 +106,10 @@ app.get("/status", async(req, res) => {
   res.json({ servidores, users, channels, commands })
   
 })
+app.get("/banner", async(req, res) => {
+    let banner = "https://media.discordapp.net/attachments/860238066542182441/867136009652142150/6dkZEcUh.jpg"
+res.json({ banner })
+})
 
 app.get("/commands", async(req, res) => {
 
