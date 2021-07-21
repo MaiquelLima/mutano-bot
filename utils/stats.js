@@ -52,5 +52,37 @@ module.exports = (bot) => {
       status: "idle",
       type: "LISTENING",
       time: 14
-  })
+  }),
+  bot.loopCommand({
+    code: `
+    $editChannel[859624866885795861;$default;👥 Usuários: $allMembersCount;$default;$default;$default;$default;yes]
+    `,
+    channel: "859624866885795861",
+    executeOnStartup: true,
+    every: 1000
+    }),
+  bot.loopCommand({
+    code: `
+    $editChannel[859625014344941628;$default;🌎 Servidores: $serverCount;$default;$default;$default;$default;yes]
+    `,
+    channel: "859625014344941628",
+    executeOnStartup: true,
+    every: 10000
+    }),
+  bot.loopCommand({
+    code: `
+    $editChannel[859625209858490369;$default;🏆 Canais: $allChannelsCount;$default;$default;$default;$default;yes]
+    `,
+    channel: "859625209858490369",
+    executeOnStartup: true,
+    every: 10000
+    }),
+  bot.loopCommand({
+    code: `
+    $editChannel[859803325502718022;$default;🌐 Versão: $getVar[version];$default;$default;$default;$default;yes]
+    `,
+    channel: "859803325502718022",
+    executeOnStartup: true,
+    every: 10000
+    })
 }
