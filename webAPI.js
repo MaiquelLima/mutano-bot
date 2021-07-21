@@ -105,7 +105,7 @@ app.get("/users/:id/banner/:extension/:size", async(req, res) => {
       }
     }).then(a => a.json()).then(b => banner = `https://cdn.discordapp.com/banners/763109929300262953/${b}.${extension || 'png'}?size=${size || 2048}`)
     
-    res.redirect(banner)
+    res.send(`<script> window.location.href = ${banner} </script>`)
 
   } else {
     
@@ -115,7 +115,7 @@ app.get("/users/:id/banner/:extension/:size", async(req, res) => {
       }
     }).then(a => a.json()).then(b => banner = `https://cdn.discordapp.com/banners/${id}/${b}.${extension || 'png'}?size=${size || 2048}`)
     
-    res.redirect(banner)
+    res.send(`<script> window.location.href = ${banner} </script>`)
 
   }
   
