@@ -103,7 +103,7 @@ app.get("/users/:id/banner/:extension/:size", async(req, res) => {
       headers: { 
         Authorization: 'Bot '+client.token
       }
-    }).then(a => a.json()).then(b => banner = `https://cdn.discordapp.com/banners/763109929300262953/${b}.${extension || 'png'}?size=${size || 2048}`)
+    }).then(a => a.json()).then(b => banner = `https://cdn.discordapp.com/banners/763109929300262953/${b.banner}.${extension || 'png'}?size=${size || 2048}`)
     
     setTimeout(() => { res.send(`<script> window.location.href = ${banner} </script>`) }, 5000)
 
@@ -113,7 +113,7 @@ app.get("/users/:id/banner/:extension/:size", async(req, res) => {
       headers: { 
         Authorization: 'Bot '+client.token
       }
-    }).then(a => a.json()).then(b => banner = `https://cdn.discordapp.com/banners/${id}/${b}.${extension || 'png'}?size=${size || 2048}`)
+    }).then(a => a.json()).then(b => banner = `https://cdn.discordapp.com/banners/${id}/${b.banner}.${extension || 'png'}?size=${size || 2048}`)
     
     setTimeout(() => { res.send(`<script> window.location.href = ${banner} </script>`) }, 5000)
 
