@@ -95,24 +95,37 @@ app.get("/users/:id/avatar", async(req, res) => {
 app.get("/users/:id/banner/:extension/:size", async(req, res) => {
   
   let { id, extension, size } = req.params
-  let banner
 
   if(id === "@me") {
-
-    require('node-fetch')('https://discord.com/api/v9/users/763109929300262953', {
+      
+let a = await fetch('https://discord.com/api/v9/users/763109929300262953', {
       headers: { 
         Authorization: 'Bot '+client.token
       }
-    }).then(a => a.json()).then(b => res.send(`<script> window.location.href = https://cdn.discordapp.com/banners/763109929300262953/${b.banner}.${extension || 'png'}?size=${size || 2048} </script>`))
+    })
+    a = await a.json()
+   
+    if(a.banner) {
+       res.send(`<script> window.location.href = "https://cdn.discordapp.com/banners/763109929300262953/${a.banner}.${extension || 'png'}?size=${size || 2048}" </script>`)
+    } else {
+       res.send(`<script> window.location.href = "https://media.discordapp.net/attachments/859618445703249940/867273758975590400/a973f70731dccd3ac2b4eba0bfbf4eb6.png" </script>`)
+    }
     
   } else {
     
-    require('node-fetch')(`https://discord.com/api/v9/users/${id}`, {
+    let a = await fetch(`https://discord.com/api/v9/users/${id}`, {
       headers: { 
         Authorization: 'Bot '+client.token
       }
-    }).then(a => a.json()).then(b => res.send(`<script> window.location.href = https://cdn.discordapp.com/banners/${id}/${b.banner}.${extension || 'png'}?size=${size || 2048} </script>`))
-
+    })
+    
+    a = await a.json()
+      
+    if(a.banner) {
+       res.send(`<script> window.location.href = "https://cdn.discordapp.com/banners/${id}/${a.banner}.${extension || 'png'}?size=${size || 2048}" </script>`)
+    } else {
+       res.send(`<script> window.location.href = "https://media.discordapp.net/attachments/859618445703249940/867273758975590400/a973f70731dccd3ac2b4eba0bfbf4eb6.png" </script>`)
+    }
   }
   
 })
