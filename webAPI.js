@@ -76,7 +76,7 @@ app.post("/users/:id/guilds", async(req, res) => {
   
 })
 
-app.get("/avatar/:id", async(req, res) => {
+app.get("/users/:id/avatar", async(req, res) => {
   
   let { id } = req.params
   
@@ -88,6 +88,35 @@ app.get("/avatar/:id", async(req, res) => {
     
     res.json(client.users.cache.get(id).avatarURL({ dynamic: true, size: 4096 }))
     
+  }
+  
+})
+
+app.get("/users/:id/banner/:extension/:size", async(req, res) => {
+  
+  let { id, extension, size } = req.params
+  let banner
+
+  if(id === "@me") {
+
+    require('node-fetch')('https://discord.com/api/v9/users/763109929300262953', {
+      headers: { 
+        Authorization: 'Bot '+client.token
+      }
+    }).then(a =≥ a.json()).then(b => banner = `https://cdn.discordapp.com/banners/763109929300262953/${b}.${extension || 'png'}${if(size) `?size=${size}`}`)
+    
+    res.redirect(banner)
+
+  } else {
+    
+    require('node-fetch')(`https://discord.com/api/v9/users/${id}`, {
+      headers: { 
+        Authorization: 'Bot '+client.token
+      }
+    }).then(a =≥ a.json()).then(b => banner = `https://cdn.discordapp.com/banners/${id}/${b}.${extension || 'png'}${if(size) `?size=${size}`}`)
+    
+    res.redirect(banner)
+
   }
   
 })
