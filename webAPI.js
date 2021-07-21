@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const Discord = require("discord.js")
+const fetch = require('node-fetch')
 
 var client
 var bot
