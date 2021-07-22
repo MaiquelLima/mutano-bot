@@ -29,7 +29,7 @@ const bot = new Aoijs.Bot({
 
 bot.onMessage({
 	respondToBots: false,
-  	guildOnly: true
+  guildOnly: true
 });
 
 // Handler simples e padrão da Aoi.js
@@ -73,7 +73,7 @@ bot.command({
 name: "$alwaysExecute",
 code: `$onlyIf[$commandInfo[$replaceText[$splitText[2];$;];name;aliases]!=;$log[Comando Utilizado
 $replaceText[$message[1];$getServerVar[chamada];]
-https://discord.com/channels/$guildID/$channelID - $getServerInvite - $serverName
+https://discord.com/channels/$guildID/$channelID - $serverName
 $userTag]]
 $onlyIf[$stringStartsWith[$message;$getServerVar[chamada]]!=false;]
 `
