@@ -107,9 +107,9 @@ let a = await fetch('https://discord.com/api/v9/users/763109929300262953', {
     a = await a.json()
    
     if(a.banner) {
-       res.send(`<script> window.location.href = "https://cdn.discordapp.com/banners/763109929300262953/${a.banner}.${extension || 'png'}?size=${size || 2048}" </script>`)
+       res.redirect(`https://cdn.discordapp.com/banners/763109929300262953/${a.banner}.${extension || 'png'}?size=${size || 2048}`)
     } else {
-       res.send(`<script> window.location.href = "https://media.discordapp.net/attachments/859618445703249940/867273758975590400/a973f70731dccd3ac2b4eba0bfbf4eb6.png" </script>`)
+       res.redirect(`httpd://media.discordapp.net/attachments/859618445703249940/867273758975590400/a973f70731dccd3ac2b4eba0bfbf4eb6.png`)
     }
     
   } else {
@@ -123,11 +123,10 @@ let a = await fetch('https://discord.com/api/v9/users/763109929300262953', {
     a = await a.json()
       
     if(a.banner) {
-       res.send(`<script> window.location.href = "https://cdn.discordapp.com/banners/${id}/${a.banner}.${extension || 'png'}?size=${size || 2048}" </script>`)
+       res.redirect(`https://cdn.discordapp.com/banners/763109929300262953/${a.banner}.${extension || 'png'}?size=${size || 2048}`)
     } else {
-       res.send(`<script> window.location.href = "https://media.discordapp.net/attachments/859618445703249940/867273758975590400/a973f70731dccd3ac2b4eba0bfbf4eb6.png" </script>`)
+       res.redirect(`httpd://media.discordapp.net/attachments/859618445703249940/867273758975590400/a973f70731dccd3ac2b4eba0bfbf4eb6.png`)
     }
-  }
   
 })
 
