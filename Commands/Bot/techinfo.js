@@ -1,5 +1,5 @@
 module.export = ({
-    name: "botinfo tech",
+    name: "tech",
     description: "Saiba as informações detalhadas e técnicas do Mutano™ :3",
     aliases: ["techinfo", "tech-info", "bot-techinfo", "botinfo tec", "tecinfo", "tec-info", "tech-botinfo", "techbotinfo"],
     code: `
