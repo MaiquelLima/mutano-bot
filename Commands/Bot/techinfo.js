@@ -19,7 +19,7 @@ CPU: \`$cpu%\`
 Memória RAM: \`$ram\`
 
 __**Fui feito em:**__
-[Aoi.js](https://aoi.js.org/) na Linguagem [JavaScript](https://developer.mozilla.org/pt-BR/docs/orphaned/Web/JavaScript) usando [Node.js](https://nodejs.org/en/about/)
+[Aoi.js\\](https://aoi.js.org/) na Linguagem [JavaScript\\](https://developer.mozilla.org/pt-BR/docs/orphaned/Web/JavaScript) usando [Node.js\\](https://nodejs.org/en/about/)
 
 __**Versões**__
 PackageLib: \`$packageVersion\`
@@ -49,7 +49,7 @@ CPU: \`$cpu%\`
 RAM Memory: \`$ram\`
 
 __**I was made in:**__
-[Aoi.js](https://aoi.js.org/) in [JavaScript](https://developer.mozilla.org/pt-BR/docs/orphaned/Web/JavaScript) language using [Node.js](https://nodejs.org/en/about/)
+[Aoi.js\\](https://aoi.js.org/) in [JavaScript\\](https://developer.mozilla.org/pt-BR/docs/orphaned/Web/JavaScript) language using [Node.js\\](https://nodejs.org/en/about/)
 
 __**Versions**__
 PackageLib: \`$packageVersion\`
