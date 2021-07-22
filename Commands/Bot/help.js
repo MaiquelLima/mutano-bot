@@ -9,10 +9,10 @@ $title[Lista de Comandos]
 $description[\`\`\`Abaixo se encontram meus comandos e as descrições deles. Espero que goste!\`\`\`
 \`💚\` Obrigado por me utilizar :3
 
-**Ao total tenho: $sub[$commandsCount;6] Comandos**
+**Ao total tenho: $sub[$commandsCount;5] Comandos**
 
 \`🐯\` __**BOT**__
-\`botinfo\` | \`invite\` | \`setlang\` | \`setprefix\` | \`ping\` | \`status\` | \`versão\`
+\`help\` | \`botinfo\` | \`tech-botinfo\` | \`invite\` | \`setlang\` | \`setprefix\` | \`ping\` | \`status\` | \`versão\` | \`uptime\`
 
 \`😂\` __**ENTRETENIMENTO**__
 \`say\` | \`8ball\` | \`jockey-pô\` | \`ship\` | \`coinflip\` | \`piada\`
@@ -42,10 +42,10 @@ $title[Command List]
 $description[\`\`\`You can check my commands and their descriptions right below. I hope you enjoy!\`\`\`
 \`💚\` I lov u for using me! :3
 
-**I have: $sub[$commandsCount;6] Commands**
+**I have: $sub[$commandsCount;5] Commands**
 
 \`🐯\` __**BOT**__
-\`help\` | \`botinfo\` | \`invite\` | \`changelang\` | \`setprefix\` | \`ping\` | \`stats\` | \`version\`
+\`help\` | \`botinfo\` | \`tech-botinfo\` | \`invite\` | \`changelang\` | \`setprefix\` | \`ping\` | \`stats\` | \`version\` | \`uptime\`
 
 \`😂\` __**ENTERTAINMENT**__
 \`say\` | \`8ball\` | \`jockey-pô\` | \`ship\` | \`coinflip\` | \`joke\`
