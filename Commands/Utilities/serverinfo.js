@@ -31,7 +31,7 @@ Voz: \`$channelCount[voice]\`
 __**Nitro**__
 \`🚀\` Boosts: \`$serverBoostCount\`
 \`🌎\` Nível de Boost: \`Lvl: $serverBoostLevel\`]
-$image[$replaceText[$replaceText[$serverBanner;webp;png;gif]?size=4096;null;https://cdn.discordapp.com/attachments/858905592801656853/867795477424504842/zDRXh_QYsNmuCTBax2cspcAE_m8AWoay0y0LljlLourD45NRa0HT1afuMG-besOkkfg33g0_YPpizg2idQsQ70CNxo-4_JgALAOv.png?size=4096;]]
+$image[$replaceText[$replaceText[$serverBanner;webp;png;gif]?size=4096;null;https://cdn.discordapp.com/attachments/858905592801656853/867798580781252698/banner.png?size=4096;]]
 $footer[Solicitado por $username;$authorAvatar]
 $addTimestamp
 $color[#1ad46d]
@@ -65,7 +65,7 @@ Bots: **$botCount**
 __**Nitro**__
 \`🚀\` Boosts: \`$serverBoostCount\`
 \`🌎\` Boost Level: \`Lvl: $serverBoostLevel\`]
-$image[$replaceText[$replaceText[$serverBanner;webp;png;gif]?size=4096;null;https://cdn.discordapp.com/attachments/858905592801656853/867795477424504842/zDRXh_QYsNmuCTBax2cspcAE_m8AWoay0y0LljlLourD45NRa0HT1afuMG-besOkkfg33g0_YPpizg2idQsQ70CNxo-4_JgALAOv.png?size=4096;]]
+$image[$replaceText[$replaceText[$serverBanner;webp;png;gif]?size=4096;null;https://cdn.discordapp.com/attachments/858905592801656853/867798580781252698/banner.png?size=4096;]]
 $footer[Executed by: $username;$authorAvatar] 
 $addTimestamp
 $color[#1ad46d]
