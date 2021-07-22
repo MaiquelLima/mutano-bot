@@ -10,6 +10,8 @@ ID: \`763109929300262953\`
 
 Para mais informações use: \`$getServerVar[chamada]versão\` para ver minha versão, \`$getServerVar[chamada]ping\` para ver minha latência \`$getServerVar[chamada]status\` e $getServerVar[chamada]uptime para ver minha status e meu uptime...
 
+Ou se caso queira saber informações mais detalhadas e técnicas sobre mim, use: \`$getServerVar[chamada]tech-botinfo\`
+
 Gostou? Teve dúvidas? Entre no meu servidor de suporte usando \`$getServerVar[chamada]suporte\`
 
 __**Criado em:**__
@@ -28,7 +30,9 @@ ID: \`763109929300262953\`
 \`\`\`Hello $username is everything okay over there? ´ I hope so! So... my name is Mutano™ I'm bot made to help and amuse LOTS of servers including my favorite you can find the links on the end of my info. I'm so glad i'm here! A little bit bellow this, you are gonna see some cool information about me. And if you need me, you just have to ping me!.\`\`\`
 
 For more information use: \`$getServerVar[chamada]version\` to see my version, \`$getServerVar[chamada]ping\` to see my latency \`$getServerVar[chamada]status\` and \`$getServerVar[chamada]uptime\` to see my status and uptime...
-        
+
+Or if you want to know more detailed and technical information about me, use: \`$getServerVar[chamada]tech-botinfo\`
+
 Did you liked me? Have any doubts? Join my support server using: \`$getServerVar[chamada]support\`
 
 __**Created in:**__
