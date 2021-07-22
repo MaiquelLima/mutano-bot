@@ -65,7 +65,7 @@ Bots: **$botCount**
 __**Nitro**__
 \`🚀\` Boosts: \`$serverBoostCount\`
 \`🌎\` Boost Level: \`Lvl: $serverBoostLevel\`]
-$image[$replaceText[$replaceText[$serverBanner;webp;png;gif]?size=4096;null;https://cdn.discordapp.com/attachments/858905592801656853/867798580781252698/banner.png?size=4096;]]
+$image[$replaceText[$replaceText[$serverBanner;webp;png;gif]?size=4096;null;https://cdn.discordapp.com/attachments/858905592801656853/867801254268239882/banner_invisible.png;]]
 $footer[Executed by: $username;$authorAvatar] 
 $addTimestamp
 $color[#1ad46d]
