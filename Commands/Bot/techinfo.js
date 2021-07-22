@@ -1,4 +1,4 @@
-module.export = ({
+module.exports = ({
     name: "tech",
     description: "Saiba as informações detalhadas e técnicas do Mutano™ :3",
     aliases: ["techinfo", "tech-info", "bot-techinfo", "botinfo tec", "tecinfo", "tec-info", "tech-botinfo", "techbotinfo"],
@@ -8,7 +8,7 @@ $apiMessage[;{thumbnail:$userAvatar[763109929300262953]}{title:Minhas Informaç�
 ID: \`763109929300262953\`
 \`\`\`Olá $username tudo bem? Espero que sim. Se você chegou até aqui e está querendo ver mais informações, certamente você têm algum conhecimento prévio do que vai tratar abaixo, ou se somente ficou curioso para saber mais detalhes sobre mim, sobre partes mais técnicas e detalhadas. Tudo isso, você encontra aqui :)\`\`\`
 
-Para mais informações use: \`$getServerVar[chamada]versão\` para ver minha versão, \`$getServerVar[chamada]ping\` para ver minha latência \`$getServerVar[chamada]status\` e $getServerVar[chamada]uptime para ver minha status e meu uptime...
+Para mais informações use: \`$getServerVar[chamada]versão\` para ver minha versão, \`$getServerVar[chamada]ping\` para ver minha latência \`$getServerVar[chamada]status\` e \`$getServerVar[chamada]uptime\` para ver minha status e meu uptime...
 
 Gostou? Teve dúvidas? Entre no meu servidor de suporte usando \`$getServerVar[chamada]suporte\`
 
