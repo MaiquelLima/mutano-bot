@@ -71,14 +71,6 @@ module.exports = (bot) => {
     }),
   bot.loopCommand({
     code: `
-    $editChannel[859625209858490369;$default;🏆 Canais: $allChannelsCount;$default;$default;$default;$default;yes]
-    `,
-    channel: "859625209858490369",
-    executeOnStartup: true,
-    every: 10000
-    }),
-  bot.loopCommand({
-    code: `
     $editChannel[859803325502718022;$default;🌐 Versão: $getVar[version];$default;$default;$default;$default;yes]
     `,
     channel: "859803325502718022",
@@ -98,14 +90,6 @@ module.exports = (bot) => {
      $editChannel[867230725814878229;$default;🌎 Servers: $serverCount; $default;$default;$default;$default;yes]
      `,
      channel: "867230725814878229",
-     executeOnStartup: true,
-     every: 10000
-     }),
-     bot.loopCommand({
-     code: `
-     $editChannel[867230758367002664;$default;🏆 Channels:  $allChannelsCount;$default;$default;$default;$default;yes]
-     `,
-     channel: "867230758367002664",
      executeOnStartup: true,
      every: 10000
      }),
