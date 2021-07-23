@@ -11,7 +11,7 @@ $description[\`\`\`Abaixo se encontra as informações sobre o servidor\`\`\`
 __**Importantes**__
 \`👑\` Dono: <@$ownerID> | \`$ownerID\`
 ID do Servidor: \`$guildID\`
-Criado em: \`$creationDate[$guildID]\`
+Criado em: \`$creationDate[$guildID]\` | ($replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$creationDate[$guildID;time];months;meses];weeks;semanas];days;dias];hours;horas];minutes;minutos];and;e];seconds;segundos];second;segundo];minute;minuto];year;ano];years;anos];week;semana];day;dia];month;mês])
 
 __**Dados**__
 Região: \`$serverRegion\`
@@ -45,7 +45,7 @@ $description[\`\`\` You can check the information about the server here:\`\`\`
 __**Important**__
 \`👑\` Owner: <@$ownerID> | \`$ownerID\`
 ID server: \`$guildID\`
-Created in: \`$creationDate[$guildID]\`
+Created in: \`$creationDate[$guildID]\` | ($creationDate[$guildID;time])
 
 __**Dates**__
 Region: \`$serverRegion\`
