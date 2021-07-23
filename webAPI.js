@@ -107,9 +107,9 @@ let a = await fetch('https://discord.com/api/v9/users/763109929300262953', {
     a = await a.json()
    
     if(a.banner) {
-       res.redirect(`https://cdn.discordapp.com/banners/763109929300262953/${a.banner}.${extension || 'webp'}?size=${size || 4096}`)
+       res.render(`https://cdn.discordapp.com/banners/763109929300262953/${a.banner}.${extension || 'webp'}?size=${size || 4096}`)
     } else {
-       res.redirect(`https://media.discordapp.net/attachments/859618445703249940/867273758975590400/a973f70731dccd3ac2b4eba0bfbf4eb6.png`)
+       res.render(`https://media.discordapp.net/attachments/859618445703249940/867273758975590400/a973f70731dccd3ac2b4eba0bfbf4eb6.png`)
     }
     
   } else {
