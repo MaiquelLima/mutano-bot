@@ -68,29 +68,3 @@ Comando utilizado: **$replaceText[$message[1];$getServerVar[chamada];]**
 $textSplit[$message[1];$getServerVar[chamada]]
 $onlyIf[$stringStartsWith[$message;$getServerVar[chamada]]!=false;]`,
 })
-
-bot.command({
-name: "$alwaysExecute",
-code: `$onlyIf[$commandInfo[$replaceText[$splitText[2];$;];name;aliases]!=;$log[Comando Utilizado
-$replaceText[$message[1];$getServerVar[chamada];]
-https://discord.com/channels/$guildID/$channelID - $serverName
-$userTag]]
-$onlyIf[$stringStartsWith[$message;$getServerVar[chamada]]!=false;]
-`
-})
-
-// Quando me mencionarem '-
-bot.command({
-name: "<@852616816240885760>",
-aliases: ["<@!852616816240885760>", "<@852616816240885760> ", "<@!852616816240885760> "],
-nonPrefixed: true,
-code: `$addCmdReactions[<a:SLBgolden:859822609984913418>]`
-})
-
-// Quando mencionarem o Matheus ;-;
-bot.command({
-name: "<@848063748929093642>",
-aliases: ["<@!848063748929093642>", "<@848063748929093642> ", "<@!848063748929093642> "],
-nonPrefixed: true,
-code: `$addCmdReactions[<:bughunter_Gold:863038528585990154>]`
-})
