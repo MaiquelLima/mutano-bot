@@ -171,4 +171,4 @@ app.post("/guilds/:guildID/prefixo", async(req, res) => {
   
 })
 
-app.listen(25567)
+app.listen(25566)
