@@ -12,7 +12,7 @@
   "author": "guih",
   "license": "ISC",
   "dependencies": {
-    "aoi.js": "^4.2.1",
+    "aoi.js": "^4.4.4",
     "@top-gg/sdk": "^3.0.9",
     "discord.js": "^12.5.3",
     "express": "^4.17.1",
