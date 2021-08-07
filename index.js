@@ -2,7 +2,7 @@
 require('dotenv/config');
 /* Ultilização da aoi.JS */
 const Aoijs = require("aoi.js")
-const { Client } = require("discord.js")
+const { Client, Intents } = require("discord.js")
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 client.on('message',async message  => {
 //caso for o canal de logs-votos:
