@@ -20,7 +20,7 @@ if(verifbot.includes(client.user.tag)){
   
 var user = client.users.cache.get(verif[0]) || await client.users.fetch(verif[0])
 user.send(`Obrigado por votar!`)
-client.channels.cache.get('id de um canal').send(`${user.tag} votou, agora tenho: ${verif[2]} votos na Dev Center`)
+client.channels.cache.get('866058091228168193').send(`${user.tag} votou, agora tenho: ${verif[2]} votos na Dev Center`)
 
 }
 
