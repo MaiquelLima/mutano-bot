@@ -14,7 +14,7 @@
   "dependencies": {
     "aoi.js": "^4.4.4",
     "@top-gg/sdk": "^3.0.9",
-    "discord.js": "^12.5.3",
+    "discord.js": "^13.0.1",
     "express": "^4.17.1",
     "fs": "0.0.1-security",
     "ytdl-core": "4.9.1",
