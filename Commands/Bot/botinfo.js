@@ -4,7 +4,7 @@ module.exports = ({
     aliases: ["bi","bot","info","bot-info","infobot","info-bot"],
     code: `
 $if[$getServerVar[lang]==pt]
-$apiMessage[;{thumbnail:$userAvatar[763109929300262953]}{title:Minhas Informações}{description:Tag: \`$userTag[763109929300262953]\`
+$apiMessage[$channelID;;{thumbnail:$userAvatar[763109929300262953]}{title:Minhas Informações}{description:Tag: \`$userTag[763109929300262953]\`
 ID: \`763109929300262953\`
 \`\`\`Olá $username tudo bem? Estou torcendo que sim. Bem, meu nome é Mutano™ e sou um bot feito para ajudar e divertir vários servidores inclusive o meu favorito que se encontra o link dele no final da minha info. Estou muito feliz por estar aqui. Um pouco abaixo você vai ver uma informações legais sobre mim. E se precisar de mim pode me marcar.\`\`\`
 
@@ -25,7 +25,7 @@ __**UPTIME**__
 $onlyIf[$getGlobalUserVar[bl;$authorID]==yes;**:x: » Você está na minha blacklist, não pode executar meus comandos!**]
 $cooldown[5s;️🙆‍♀️・Vai com calma pequeno caçador. Espere %time% para executar meus comandos comandos]
 $elseif[$getServerVar[lang]==en]
-$apiMessage[;{thumbnail:$userAvatar[763109929300262953]}{title:My Informations}{description:Tag: \`$userTag[763109929300262953]\`
+$apiMessage[$channelID;;{thumbnail:$userAvatar[763109929300262953]}{title:My Informations}{description:Tag: \`$userTag[763109929300262953]\`
 ID: \`763109929300262953\` 
 \`\`\`Hello $username is everything okay over there? ´ I hope so! So... my name is Mutano™ I'm bot made to help and amuse LOTS of servers including my favorite you can find the links on the end of my info. I'm so glad i'm here! A little bit bellow this, you are gonna see some cool information about me. And if you need me, you just have to ping me!.\`\`\`
 
