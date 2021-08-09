@@ -15,8 +15,8 @@ Gostou? Teve dúvidas? Entre no meu servidor de suporte usando \`$getServerVar[c
 __**Dados de Armazenamento e Velocidade**__
 Banco de Dados: \`dbdjs.db\`
 Hospedagem: \`Fenix Hosting (VPS)\`
-CPU: \`$cpu%\`
-Memória RAM: \`$ram\`
+CPU: \`$cpu%/ilimitada\`
+Memória RAM: \`$ram/2 GB\`
 
 __**Fui feito em:**__
 [Aoi.js](https://aoi.js.org/) na linguagem [JavaScript](https://developer.mozilla.org/pt-BR/docs/orphaned/Web/JavaScript) usando [Node.js](https://nodejs.org/pt-br/about/)
@@ -45,8 +45,8 @@ Did you liked me? Have any doubts? Join my support server using: \`$getServerVar
 __**Storage & Speed Data**__
 Database: \`dbdjs.db\`
 Hosting: \`Fenix Hosting (VPS)\`
-CPU: \`$cpu%\`
-RAM Memory: \`$ram\`
+CPU: \`$cpu% / unlimited\`
+RAM Memory: \`$ram / 2GB\`
 
 __**I was made in:**__
 [Aoi.js](https://aoi.js.org/) in [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) language using [Node.js](https://nodejs.org/en/about/)
