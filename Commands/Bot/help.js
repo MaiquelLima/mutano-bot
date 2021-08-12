@@ -15,7 +15,7 @@ $description[\`\`\`Abaixo se encontram meus comandos e as descrições deles. Es
 \`help\` | \`botinfo\` | \`tech-botinfo\` | \`invite\` | \`setlang\` | \`setprefix\` | \`ping\` | \`status\` | \`versão\` | \`uptime\`
 
 \`😂\` __**ENTRETENIMENTO**__
-\`say\` | \`8ball\` | \`jockey-pô\` | \`ship\` | \`coinflip\` | \`piada\`
+\`say\` | \`8ball\` | \`jockey-pô\` | \`ship\` | \`piada\`
 
 \`🌄\` __**IMAGENS**__
 \`trash\` | \`drake\` | \`impostor\` | \`poof\` | \`stonks\` | \`triggered\` | \`trump\`
@@ -48,7 +48,7 @@ $description[\`\`\`You can check my commands and their descriptions right below.
 \`help\` | \`botinfo\` | \`tech-botinfo\` | \`invite\` | \`changelang\` | \`setprefix\` | \`ping\` | \`stats\` | \`version\` | \`uptime\`
 
 \`😂\` __**ENTERTAINMENT**__
-\`say\` | \`8ball\` | \`jockey-pô\` | \`ship\` | \`coinflip\` | \`joke\`
+\`say\` | \`8ball\` | \`jockey-pô\` | \`ship\` | \`joke\`
 
 \`🌄\` __**IMAGES**__
 \`trash\` | \`drake\` | \`imposter\` | \`poof\` | \`stonks\` | \`triggered\` | \`trump\`
