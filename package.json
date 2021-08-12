@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "aoi.js": "^4.4.4",
+    "@discordjs/voice": "0.6.0",
     "discord.js": "^13.0.1",
     "express": "^4.17.1",
     "fs": "0.0.1-security",
