@@ -11,7 +11,7 @@ $editIn[3s;{title: LIMPO!}{description: **🧹 $message mensagens foram limpas.*
 $color[#ff0000]
 $deleteIn[7s]
 $onlyBotPerms[managemessages;{description: Eu não tenho a permissão de \`MANAGAGE_MESSAGES\` para executar este comando!}{color: #ff0000}]
-$onlyIf[$message[1]<2;{description: Você não pode limpar mais de 2 mensagens}{color: #ff0000}]
+$onlyIf[$message[1]>2;{description: Você não pode limpar mais de 2 mensagens}{color: #ff0000}]
 $argsCheck[>1;{description: Coloque  o número de mensagens que deseja apagar}{color: #ff0000}]
 $deletecommand
 $onlyPerms[managemessages;{description: Você não têm a permissão de \`MANAGE_MESSAGES\` para executar este comando}{color: #ff0000}]
