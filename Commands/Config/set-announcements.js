@@ -5,7 +5,8 @@ module.exports = ({
     code: `
 $if[$getServerVar[lang]==pt]
 $title[SETADO!]
-$description[\`✅\`・Canal de Anúncios setado com sucesso!]
+$description[\`✅\`・Canal de Anúncios setado com sucesso!
+> Canal setado para: <#$replaceText[$replaceText[$isNumber[$message[1]];true;$message[1];1];false;$mentionedChannels[1;yes];1]>]
 $color[#2F3136]
 $onlyPerms[admin;:x: Você não tem a permissão de \`ADMINISTRADOR\` para executar este comando!]
 $onlyIf[$checkContains[$message]!=;$replaceText[$replaceText[$isNumber[$message[1]];true;$message[1];1];false;$mentionedChannels[1;yes];1];{description: Canal inválido}{color: #ff0000}]
@@ -14,7 +15,8 @@ $cooldown[5s;🙆‍♀️・Vai com calma pequeno caçador. Espere %time% para 
 
 $elseif[$getServerVar[lang]==en]
 $title[SET!]
-$description[\`✅\`・Ad Channel successfully set!]
+$description[\`✅\`・Ad Channel successfully set!
+> Channel set for: <#$replaceText[$replaceText[$isNumber[$message[1]];true;$message[1];1];false;$mentionedChannels[1;yes];1]>]
 $color[#2F3136]
 $onlyPerms[admin;:x: You do not have \`ADMINISTRATOR\` permission to execute this command!]
 $onlyIf[$checkContains[$message]!=;$replaceText[$replaceText[$isNumber[$message[1]];true;$message[1];1];false;$mentionedChannels[1;yes];1];{description: Invalid Channel}{color: #ff0000}]
