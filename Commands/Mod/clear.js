@@ -11,7 +11,7 @@ $editIn[3s;{title: LIMPO!}{description: **🧹 $message mensagens foram limpas.*
 $color[#ff0000]
 $deleteIn[7s]
 $onlyBotPerms[managemessages;{description: Eu não tenho a permissão de \`MANAGAGE_MESSAGES\` para executar este comando!}{color: #ff0000}]
-$onlyIf[$checkContains[$message[1];1]==true;{description: Você não pode limpar mais de 2 mensagens}{color: #ff0000}]
+$onlyIf[$checkContains[$message[1];1]==false;{description: Você não pode limpar mais de 2 mensagens}{color: #ff0000}]
 $argsCheck[>1;{description: Coloque  o número de mensagens que deseja apagar}{color: #ff0000}]
 $deletecommand
 $onlyPerms[managemessages;{description: Você não têm a permissão de \`MANAGE_MESSAGES\` para executar este comando}{color: #ff0000}]
@@ -26,7 +26,7 @@ $editIn[3s;{title: CLEAN!}{description: **🧹 $message messages were cleared.**
 $color[#ff0000]
 $deleteIn[7s]
 $onlyBotPerms[managemessages;{description: I don't have the permission of \`MANAGAGE_MESSAGES\` to run this command!}{color: #ff0000}]
-$onlyIf[$checkContains[$message[1];1]==true;{description: You cannot clear more than 2 messages}{color: #ff0000}]
+$onlyIf[$checkContains[$message[1];1]==false;{description: You cannot clear more than 2 messages}{color: #ff0000}]
 $argsCheck[>1;{description: Enter the number of messages you wish to delete}{color: #ff0000}]
 $deletecommand
 $onlyPerms[managemessages;{description: You do not have the permission of \`MANAGE_MESSAGES\` to execute this command}{color: #ff0000}]
