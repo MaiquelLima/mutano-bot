@@ -9,8 +9,9 @@ module.exports = ({
   $description[<@$findUser[$message;yes]> Que foto zika meu amigo!  Muito bom gosto :3!
   
   __Downloads__
-  [webp\\]($replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$userAvatar[$findUser[$message]];gif;webp];png;webp];jpg;webp];jpeg;webp];?size=2048;?size=4096]) | [png\\]($replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$userAvatar[$findUser[$message]];gif;png];jpg;png];jpeg;png];webp;png];?size=2048;?size=4096]) | [jpg\\]($replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$userAvatar[$findUser[$message]];gif;jpg];png;jpg];jpeg;jpg];webp;jpg];?size=2048;?size=4096]) | [jpeg\\]($replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$userAvatar[$findUser[$message]];gif;jpeg];png;jpeg];jpg;jpeg];jpeg;jpeg];webp;jpeg];?size=2048;?size=4096]) | [gif\\]($replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$userAvatar[$findUser[$message]];png;gif];jpg;gif];jpeg;gif];gif;gif];webp;gif];?size=2048;?size=4096])]
-  $image[$replaceText[$userAvatar[$findUser[$message]];?size=2048;?size=4096]
+  [webp\\]($replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$userAvatar[$findUser[$message]];gif;webp];png;webp];jpg;webp];jpeg;webp];?size=2048;?size=4096]) | [png\\]($replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$userAvatar[$findUser[$message]];gif;png];jpg;png];jpeg;png];webp;png];?size=2048;?size=4096]) | [jpg\\]($replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$userAvatar[$findUser[$message]];gif;jpg];png;jpg];jpeg;jpg];webp;jpg];?size=2048;?size=4096]) | [jpeg\\]($replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$userAvatar[$findUser[$message]];gif;jpeg];png;jpeg];jpg;jpeg];jpeg;jpeg];webp;jpeg];?size=2048;?size=4096]) | [gif\\]($replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$userAvatar[$findUser[$message]];png;gif];jpg;gif];jpeg;gif];gif;gif];webp;gif];?size=2048;?size=4096])
+  ]
+  $image[$replaceText[$userAvatar[$findUser[$message]];?size=2048;?size=4096]]
   
   $footer[Pedido por $username]
   $color[#1ad46d]
@@ -24,7 +25,7 @@ module.exports = ({
   
   __Downloads__
   [webp\\]($replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$userAvatar[$findUser[$message]];gif;webp];png;webp];jpg;webp];jpeg;webp];?size=2048;?size=4096]) | [png\\]($replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$userAvatar[$findUser[$message]];gif;png];jpg;png];jpeg;png];webp;png];?size=2048;?size=4096]) | [jpg\\]($replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$userAvatar[$findUser[$message]];gif;jpg];png;jpg];jpeg;jpg];webp;jpg];?size=2048;?size=4096]) | [jpeg\\]($replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$userAvatar[$findUser[$message]];gif;jpeg];png;jpeg];jpg;jpeg];jpeg;jpeg];webp;jpeg];?size=2048;?size=4096]) | [gif\\]($replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$userAvatar[$findUser[$message]];png;gif];jpg;gif];jpeg;gif];gif;gif];webp;gif];?size=2048;?size=4096])
-  $image[$replaceText[$userAvatar[$findUser[$message]];?size=2048;?size=4096]
+  $image[$replaceText[$userAvatar[$findUser[$message]];?size=2048;?size=4096]]
   
   $footer[Executed by: $username]
   $color[#1ad46d]
