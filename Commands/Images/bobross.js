@@ -3,7 +3,7 @@ module.exports = ({
     description: "Hmm Bobross pintando seu avatar?...",
     code: `
 $if[$getServerVar[lang]==pt]
-$image[https://api.tomio.codes/api/bobross?url=$replaceText[$replaceText[$replaceText[$replaceText[$userAvatar[$findUser[$message]?size=4096];gif;png];png;png];jpg;png];jpeg;png]]
+$image[https://api.tomio.codes/api/bobross?url=$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$userAvatar[$findUser[$message]?size=4096];gif;png];png;png];jpg;png];jpeg;png];web;png]
 $footer[Solicitado por $username;$authorAvatar]
 $addTimestamp
 $color[#1ad46d]
