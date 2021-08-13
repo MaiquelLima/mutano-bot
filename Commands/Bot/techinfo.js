@@ -4,7 +4,7 @@ module.exports = ({
     aliases: ["techinfo", "tech-info", "bot-techinfo", "botinfo tec", "tecinfo", "tec-info", "tech-botinfo", "techbotinfo"],
     code: `
 $if[$getServerVar[lang]==pt]
-$apiMessage[;{thumbnail:$userAvatar[763109929300262953]}{title:Minhas Informações}{description:Tag: \`$userTag[763109929300262953]\`
+$apiMessage[$channelID;;{thumbnail:$userAvatar[763109929300262953]}{title:Minhas Informações}{description:Tag: \`$userTag[763109929300262953]\`
 ID: \`763109929300262953\`
 \`\`\`Olá $username tudo bem? Espero que sim. Se você chegou até aqui e está querendo ver mais informações, certamente você têm algum conhecimento prévio do que vai tratar abaixo, ou se somente ficou curioso para saber mais detalhes sobre mim, sobre partes mais técnicas e detalhadas. Tudo isso, você encontra aqui :)\`\`\`
 
@@ -15,8 +15,8 @@ Gostou? Teve dúvidas? Entre no meu servidor de suporte usando \`$getServerVar[c
 __**Dados de Armazenamento e Velocidade**__
 Banco de Dados: \`dbdjs.db\`
 Hospedagem: \`Fenix Hosting (VPS)\`
-CPU: \`$cpu%\`
-Memória RAM: \`$ram\`
+CPU: \`$cpu%/ilimitada\`
+Memória RAM: \`$ram/2 GB\`
 
 __**Fui feito em:**__
 [Aoi.js](https://aoi.js.org/) na linguagem [JavaScript](https://developer.mozilla.org/pt-BR/docs/orphaned/Web/JavaScript) usando [Node.js](https://nodejs.org/pt-br/about/)
@@ -34,7 +34,7 @@ __**CRIADOR**__
 $onlyIf[$getGlobalUserVar[bl;$authorID]==yes;**:x: » Você está na minha blacklist, não pode executar meus comandos!**]
 $cooldown[5s;🙆‍♀️・Vai com calma pequeno caçador. Espere %time% para executar meus comandos comandos]
 $elseif[$getServerVar[lang]==en]
-$apiMessage[;{thumbnail:$userAvatar[763109929300262953]}{title:My Informations}{description:Tag: \`$userTag[763109929300262953]\`
+$apiMessage[$channelID;;{thumbnail:$userAvatar[763109929300262953]}{title:My Informations}{description:Tag: \`$userTag[763109929300262953]\`
 ID: \`763109929300262953\`
 \`\`\`Hi $username, how are you? I hope so. If you have come this far and are wanting to see more information, surely you have some prior knowledge of what is going to be discussed below, or if you are just curious to know more details about me, about more technical and detailed parts. All of this, you will find here :)\`\`\`
 
@@ -45,8 +45,8 @@ Did you liked me? Have any doubts? Join my support server using: \`$getServerVar
 __**Storage & Speed Data**__
 Database: \`dbdjs.db\`
 Hosting: \`Fenix Hosting (VPS)\`
-CPU: \`$cpu%\`
-RAM Memory: \`$ram\`
+CPU: \`$cpu% / unlimited\`
+RAM Memory: \`$ram / 2GB\`
 
 __**I was made in:**__
 [Aoi.js](https://aoi.js.org/) in [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) language using [Node.js](https://nodejs.org/en/about/)
