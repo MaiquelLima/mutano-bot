@@ -74,6 +74,7 @@ bot.readyCommand({
 
 // Chamando dados das variáveis, status e da webAPI para a index
 
+require('./utils/callbacks')(bot);
 require('./utils/variables')(bot);
 require('./utils/stats')(bot);
 require('./webAPI.js')(bot);
