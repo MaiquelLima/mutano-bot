@@ -29,9 +29,6 @@ client.channels.cache.get('866058091228168193').send(`${user.tag} votou, agora t
 }
 }) 
 
-/* Ultilização da aoi.JS */
-const Aoijs = require("aoi.js")
-
 //Configurando o Client da Aoi.js
 
 const bot = new Aoijs.Bot({
