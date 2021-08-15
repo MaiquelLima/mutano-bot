@@ -15,14 +15,14 @@ $description[\`\`\`Abaixo se encontram meus comandos e as descrições deles. Es
 \`help\` | \`botinfo\` | \`tech-botinfo\` | \`invite\` | \`setlang\` | \`setprefix\` | \`ping\` | \`status\` | \`versão\` | \`uptime\`
 
 \`😂\` __**ENTRETENIMENTO**__
-<<<<<<< HEAD
-\`say\` | \`8ball\` | \`jockey-pô\` | \`ship\` | \`coinflip\` | \`piada\`
+\`say\` | \`8ball\` | \`jockey-pô\` | \`ship\` | \`piada\`
 
 \`🌄\` __**IMAGENS**__
->>>>>>> 5cb443165554bdb686d4445e681ad4704717a852
+\`trash\` | \`drake\` | \`impostor\` | \`poof\` | \`stonks\` | \`triggered\` | \`trump\`
 
 \`🔨\` __**CONFIGURÁVEIS**__
 \`set-anuncios\`
+
 \`📰\` __**UTILITÁRIOS**__
 \`serverinfo\` | \`avatar\` | \`invert\` | \`shortlink\`
 
