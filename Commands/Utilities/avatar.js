@@ -1,6 +1,7 @@
 module.exports = ({
     name: "avatar",
     description: "Mostra o Avatar seu ou do usuario desejado.",
+    aliases: ["av"],
     code: `
   $if[$getServerVar[lang]==pt]
   
