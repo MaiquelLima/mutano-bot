@@ -22,7 +22,7 @@ $eval[$message;yes]
 \`\`\`]
 $suppressErrors
 $argsCheck[>1;{description: Digite algo para inspecionar}{color: #ff0000}]
-$onlyForIDs[745235656912928940;852616816240885760;817323606257565736;{description: Apenas meus Desenvolvedores podem executar este comando!}{color: #ff0000}]
+$onlyForIDs[852616816240885760;857836846641578014;817323606257565736;{description: Apenas meus Desenvolvedores podem executar este comando!}{color: #ff0000}]
 $elseif[$getServerVar[lang]==en]
 
 $color[#1ad46d]

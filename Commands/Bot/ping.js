@@ -9,7 +9,7 @@ $addCmdReactions[🏓]
 ⚡ Latência da WebSocket é: \`$djsEval[client.ws.ping;yes]ms\`
 🌐 Latência do Banco de Dados é:  \`$dbPingms\`
 $onlyIf[$getGlobalUserVar[bl;$authorID]==yes;**:x: » Você está na minha blacklist, não pode executar meus comandos!**]
-$cooldown[5s;🙆‍♀️・Vai com calma pequeno caçador. Espere $replaceText[$replaceText[%time%;seconds;segundos];second;segundo] para executar meus comandos]
+$cooldown[5s;🙆‍♀️・Vai com calma pequeno caçador. Espere %time% para executar meus comandos]
 $elseif[$getServerVar[lang]==en]
 $addCmdReactions[🏓]
 🐯 My Latency is: \`$botPingms\` 
