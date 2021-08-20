@@ -1,7 +1,7 @@
 module.exports = ({
     name: "ship",
     description: "Bora shipar aquele casalzin? :>",
-    aliases: ["shipar"],
+    aliases: ["shipar", "crush"],
     code: `
 $if[$getServerVar[lang]==pt]
 $title[**Eita será que esses dois vão dar certo?**]

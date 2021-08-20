@@ -2,7 +2,7 @@ module.exports = ({
     name: "8ball",
     description: "Faça uma pergunta que com certeza ele irá te responder ;)",
     desc: "Fazer uma pegunta para o Mutanin responder",
-    aliases: ["perguntar"],
+    aliases: ["perguntar", "vidente"],
     code: `
 $if[$getServerVar[lang]==pt]
 $thumbnail[https://cdn.discordapp.com/attachments/757053078175219813/786117668792827904/1607495441886.png]
