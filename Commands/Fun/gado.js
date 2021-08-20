@@ -1,7 +1,7 @@
 module.exports = ({
     name: "gado",
     description: "Não sabe se é gado? Hmmm, você é gadin?",
-    aliases: ["gadin", "gadonômetro"],
+    aliases: ["gadin", "gadonômetro", "cattle"],
     code: `
 $if[$getServerVar[lang]==pt]
 $reply[$messageID;{description: :ox: <@$findUser[$message]> você é \`$random[1;100]%\` gado :flushed:}{color: #8e7554}{thumbnail: $userAvatar[$findUser[$message]]}{author: $userTag[$authorID]}{footer: Comando utilizado para brincadeiras nada que vá além do devido respeito}{image: https://giphy.com/gifs/tvebahia-oq-vitortorres-SqTX7Jt2K2o2aol0ax};yes]
