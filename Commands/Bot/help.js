@@ -15,10 +15,10 @@ $description[\`\`\`Abaixo se encontram meus comandos e as descrições deles. Es
 \`help\` | \`botinfo\` | \`tech-botinfo\` | \`invite\` | \`setlang\` | \`setprefix\` | \`ping\` | \`status\` | \`versão\` | \`uptime\`
 
 \`😂\` __**ENTRETENIMENTO**__
-\`say\` | \`8ball\` | \`jockey-pô\` | \`ship\` | \`piada\` | \`pressf\` | \`gay\` | \`gado\` | \`abraçar\` | \`negativo\`
+\`say\` | \`8ball\` | \`jockey-pô\` | \`ship\` | \`piada\` | \`pressf\` | \`gay\` | \`gado\` | \`abraçar\`
 
 \`🌄\` __**IMAGENS**__
-\`trash\` | \`drake\` | \`impostor\` | \`poof\` | \`stonks\` | \`triggered\` | \`trump\` | \`pixel\` | \`sepia\` | \`grey\` | \`blurple\`
+\`trash\` | \`drake\` | \`impostor\` | \`poof\` | \`stonks\` | \`triggered\` | \`trump\` | \`pixel\` | \`sepia\` | \`grey\` | \`blurple\` | \`negativo\`
 
 \`🔨\` __**CONFIGURÁVEIS**__
 \`set-anuncios\`
