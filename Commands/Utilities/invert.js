@@ -1,7 +1,7 @@
 module.exports = ({
     name: "invert",
     description: "Socorram marrocoS",
-    aliases: ["invertertexto","revert","reverter","inverter-texto","reverter-texto","reverter-texto","invert-text","inverttext"],
+    aliases: ["invertertexto","revert","reverter","inverter-texto","reverter-texto","reverter-texto","invert-text","inverttext", "inverter"],
     code: `
 $if[$getServerVar[lang]==pt]
 $addField[Invertido: «;$jsonRequest[https://api.devs-hub.xyz/reverse?text=$replaceText[$message; ;+;-1];reverse]]
