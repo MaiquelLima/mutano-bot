@@ -1,7 +1,7 @@
 {
   "name": "mutano",
-  "version": "2.3.1",
-  "description": "O Bot com os melhores recursos da Aoi.js para você!",
+  "version": "2.5.3 beta",
+  "description": "Um bot simples tentando trazer o melhor sendo multifuncional para seu servidor e feito em Aoi.js",
   "main": "index.js",
   "scripts": {
     "start": "node ."
