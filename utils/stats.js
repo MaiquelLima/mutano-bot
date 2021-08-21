@@ -30,7 +30,19 @@ module.exports = (bot) => {
       time: 14
   }),
   bot.status({
+      text: "🤭 você sendo uma pessoa incrível... :3",
+      status: "idle",
+      type: "WATCHING",
+      time: 14
+  }),
+  bot.status({
       text: "😎 em $allChannelsCount canais",
+      status: "idle",
+      type: "WATCHING",
+      time: 14
+  }),
+  bot.status({
+      text: "😋 cara, eu amo tofu!",
       status: "idle",
       type: "WATCHING",
       time: 14
@@ -41,6 +53,12 @@ module.exports = (bot) => {
       type: "WATCHING",
       time: 14
   }),
+  bot.status({
+    text: "meu papai $userTag[852616816240885760]",
+    status: "idle",
+    type: "WATCHING",
+    time: 14
+})
   bot.status({
       text: "🌐 Estou na versão $getVar[version]",
       status: "idle",
