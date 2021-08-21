@@ -12,7 +12,7 @@ $footer[Solicitado por $username;$authorAvatar]
 $addTimestamp
 $color[#1ad46d]
 $onlyIf[$getGlobalUserVar[bl;$authorID]==yes;**:x: » Você está na minha blacklist, não pode executar meus comandos!**]
-$cooldown[5s;🙆‍♀️・Vai com calma pequeno caçador. Espere %time% para executar meus comandos comandos]
+$cooldown[5s;🙆‍♀️・Vai com calma pequeno caçador. Espere %time% para executar meus comandos]
 $elseif[$getServerVar[lang]==en]
 $image[https://api.devs-hub.xyz/tuxedo-pooh?normal=$replaceText[$splitText[1]; ;+;-1]&tuxedo=$replaceText[$splitText[2]; ;+;-1]]
 $onlyIf[$splitText[2]!=;{description:It feels like something was missing... Example: text1 / text2}{color: #ff0000}]

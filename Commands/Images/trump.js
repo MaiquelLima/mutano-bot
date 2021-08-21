@@ -11,7 +11,7 @@ $addTimestamp
 $color[#1ad46d]
 $onlyIf[$message[1]!=;{description::x: » Você não digitou algo para o Trump falar :/}{color:FF0000}]
 $onlyIf[$getGlobalUserVar[bl;$authorID]==yes;**:x: » Você está na minha blacklist, não pode executar meus comandos!**]
-$cooldown[5s;🙆‍♀️・Vai com calma pequeno caçador. Espere %time% para executar meus comandos comandos]
+$cooldown[5s;🙆‍♀️・Vai com calma pequeno caçador. Espere %time% para executar meus comandos]
 $elseif[$getServerVar[lang]==en]
 <@$authorID>
 $image[https://api.no-api-key.com/api/v2/trump?message=$replaceText[$message; ;%20;-1]]

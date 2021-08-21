@@ -10,7 +10,7 @@ $footer[Solicitado por $username;$authorAvatar]
 $addTimestamp
 $color[#1ad46d]
 $onlyIf[$getGlobalUserVar[bl;$authorID]==yes;**:x: » Você está na minha blacklist, não pode executar meus comandos!**]
-$cooldown[5s;🙆‍♀️・Vai com calma pequeno caçador. Espere %time% para executar meus comandos comandos]
+$cooldown[5s;🙆‍♀️・Vai com calma pequeno caçador. Espere %time% para executar meus comandos]
 $elseif[$getServerVar[lang]==en]
 <@$authorID>
 $image[https://some-random-api.ml/canvas/triggered?avatar=$replaceText[$replaceText[$replaceText[$replaceText[$userAvatar[$findUser[$message]?size=4096];gif;png];webp;png];jpg;png];jpeg;png]]
