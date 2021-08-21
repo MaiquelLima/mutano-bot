@@ -1,7 +1,7 @@
 module.exports = ({
     name: "jail",
     description: "Infelizmente todos neste comando, acabão em jaulas 😔",
-    aliases: ["jaula", "preso", "aprisionado", "enjaulado", "prisão", "prisao"],
+    aliases: ["jaula", "preso", "aprisionado", "enjaulado", "prisão", "prisao", "cadeia"],
     code: `
 $if[$getServerVar[lang]==pt]
 $image[https://some-random-api.ml/canvas/jail?avatar=$replaceText[$replaceText[$replaceText[$replaceText[$userAvatar[$findUser[$message]?size=4096];gif;png];png;png];jpg;png];jpeg;png]]
