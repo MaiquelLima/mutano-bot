@@ -13,8 +13,8 @@ $description[・Account created at: \`$replaceText[$replaceText[$replaceText[$re
 
 ・He was the **$replaceText[$replaceText[$replaceText[$replaceText[$memberJoinPosition[$findUser[$message]];st; ];nd; ];rd; ];th; ]**to enter here
 ]
-$addField[・Discord Tag;\`$username[$findUser[$message]]#$discriminator[$findUser[$message]]\`]
-$addField[・ID;\`$findUser[$message]\`]
+$addField[・Discord Tag;\`$userTag[$findUser[$message]]\`;yes]
+$addField[・ID;\`$findUser[$message]\`;yes]
 $color[#1ad46d]
 $footer[Asked by $username[$authorID];$authorAvatar]
 $cooldown[5s;🙆‍♀️・Take it easy ,little hunter. wait %time% to execute my commands again!]
