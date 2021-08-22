@@ -6,7 +6,7 @@ module.exports = ({
 $if[$getServerVar[lang]==pt]
 $thumbnail[$userAvatar[$findUser[$message]]]
 $author[$username[$findUser[$message]]]
-$description[・Account created at: \`$creationDate[$findUser[$message]]\` | ($replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$creationDate[$findUser[$message];time];months;meses];weeks;semanas];days;dias];hours;horas];minutes;minutos];and;e];seconds;segundos];second;segundo];minute;minuto];year;ano];years;anos];week;semana];day;dia];month;mês])
+$description[・Conta criada em: \`$creationDate[$findUser[$message]]\` | ($replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$creationDate[$findUser[$message];time];months;meses];weeks;semanas];days;dias];hours;horas];minutes;minutos];and;e];seconds;segundos];second;segundo];minute;minuto];year;ano];years;anos];week;semana];day;dia];month;mês])
 
 ・Entrou no servidor em: \`$creationDate[$findUser[$message]]\` | ($replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$creationDate[$findUser[$message];time];months;meses];weeks;semanas];days;dias];hours;horas];minutes;minutos];and;e];seconds;segundos];second;segundo];minute;minuto];year;ano];years;anos];week;semana];day;dia];month;mês])
 
@@ -25,7 +25,7 @@ $thumbnail[$userAvatar[$findUser[$message]]]
 $author[$username[$findUser[$message]]]
 $description[・Account created at: \`$creationDate[$findUser[$message]]\` | ($creationDate[$findUser[$message];time])
 
-・Joined here at: \`$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$memberJoinedDate[$findUser[$message];time];months;meses];weeks;semanas];days;dias];hours;horas];minutes;minutos];and;e];seconds;segundos];second;segundo];minute;minuto];year;ano];years;anos];week;semana];day;dia];month;mês]\`
+・Joined here at: \`$memberJoinedDate[$findUser[$message]]\`
 
 ・Joined position: \`$memberJoinPosition[$findUser[$message]]\`
 
