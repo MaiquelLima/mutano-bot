@@ -24,7 +24,7 @@ $description[\`\`\`Abaixo se encontram meus comandos e as descrições deles. Es
 \`set-anuncios\`
 
 \`📰\` __**UTILITÁRIOS**__
-\`serverinfo\` | \`avatar\` | \`invert\` | \`shortlink\`
+\`serverinfo\` | \`avatar\` | \`invert\` | \`shortlink\` | \`userinfo\`
 
 \`👮‍‍️\` __**MODERAÇÃO**__
 \`clear\` | \`anunciar\`
@@ -57,7 +57,7 @@ $description[\`\`\`You can check my commands and their descriptions right below.
 \`set-announcements\`
  
 \`📰\` __**UTILS**__
-\`serverinfo\` | \`avatar\` | \`invert\` | \`shortener\`
+\`serverinfo\` | \`avatar\` | \`invert\` | \`shortener\` | \`userinfo\`
 
 \`👮‍‍️\` __**MODERATION**__
 \`clear\` | \`announce\`

@@ -1,7 +1,7 @@
 module.exports = ({
     name: "shorten",
     description: "Encurtando links...",
-    aliases: ["link", "shortlink", "encurtar", "encurtarlink", "encurtador", "encurtadorlink", "shortener", "shortenerlink"],
+    aliases: ["short", "link", "shortlink", "encurtar", "encurtarlink", "encurtador", "encurtadorlink", "shortener", "shortenerlink"],
   description: "Url shortener",
   usage: "shortener <url>",
   code: `$if[$getServerVar[lang]==pt]
