@@ -1,7 +1,7 @@
 module.exports = ({
     name: "eval",
     description: "Evaluate pra Devs :3",
-    aliases: ["e"], 
+    aliases: ["e", "ev"], 
     code: `
 $if[$getServerVar[lang]==pt]
 
@@ -17,7 +17,7 @@ $message
 \`\`\`
 
 __Saída:__
-\`\`\`
+\`\`\`js
 $eval[$message;yes]
 \`\`\`]
 $suppressErrors
@@ -37,7 +37,7 @@ $message
 \`\`\`
 
 __Output:__
-\`\`\`
+\`\`\`js
 $eval[$message;yes]
 \`\`\`]
 $suppressErrors
