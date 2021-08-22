@@ -3,6 +3,7 @@ module.exports = (bot) => {
         version: "2.6.3 beta",
         chamada: "mt.",
         lang: "pt",
+        usedCmds: "0",
         bl:"yes",
         enable:"yes",
         cWelcome: '',

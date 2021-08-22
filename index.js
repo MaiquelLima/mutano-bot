@@ -91,7 +91,7 @@ Comando utilizado: **$replaceText[$message[1];$getServerVar[chamada];]**
 **Informações do Servidor**
 ・Dono: **$username[$ownerID]** | \`$ownerID\`
 ・Membros: \`$membersCount\`
-・Canais: \`$channelCount\`}{footer: $formatDate[$dateStamp]}{color: #1ad46d}{thumbnail: $serverIcon}]]
+・Canais: \`$channelCount\`}{footer: $formatDate[$dateStamp]}{color: #1ad46d}{thumbnail: $serverIcon}]$setGlobalUserVar[usedCmds;$sum[$getGlobalUserVar[usedCmds;$authorID];1];$authorID]]
 $textSplit[$message[1];$getServerVar[chamada]]
 $onlyIf[$stringStartsWith[$message;$getServerVar[chamada]]!=false;]`,
 })
