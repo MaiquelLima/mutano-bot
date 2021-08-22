@@ -17,5 +17,9 @@ $addField[・Discord Tag;\`$username[$findUser[$message]]#$discriminator[$findUs
 $addField[・ID;\`$findUser[$message]\`]
 $color[#1ad46d]
 $footer[Asked by $username[$authorID];$authorAvatar]
+$cooldown[5s;🙆‍♀️・Take it easy ,little hunter. wait %time% to execute my commands again!]
+$onlyIf[$getGlobalUserVar[bl;$authorID]==yes;** :x: » You are in my blacklist, you can't execute my commands!**]
+$endelseif
+$endif
     `
 })
