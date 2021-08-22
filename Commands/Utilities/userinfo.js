@@ -12,7 +12,7 @@ $description[・Account created at: \`$replaceText[$replaceText[$replaceText[$re
 ・Joined here at: \`$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$memberJoinedDate[$findUser[$message];time];months;meses];weeks;semanas];days;dias];hours;horas];minutes;minutos];and;e];seconds;segundos];second;segundo];minute;minuto];year;ano];years;anos];week;semana];day;dia];month;mês]\`
 
 ・He was the **$replaceText[$replaceText[$replaceText[$replaceText[$memberJoinPosition[$findUser[$message]];st; ];nd; ];rd; ];th; ]**to enter here
-]
+
 $addField[・Discord Tag;\`$userTag[$findUser[$message]]\`;yes]
 $addField[・ID;\`$findUser[$message]\`;yes]
 $color[#1ad46d]
