@@ -5,7 +5,7 @@ module.exports = ({
     code: `
 $if[$getServerVar[lang]==pt]
 $thumbnail[$userAvatar[$findUser[$message]]]
-$author[$replaceText[$replaceText[$replaceText[$getUserBadges[$findUser[$message]];House Balance;<:badgeBalance:868611349540909098>];House Brilliance;<:badgeBrilliance:868611514624512023>];House Bravery;<:badgeBraveryHS:868611434412650496>] $username[$findUser[$message]]]
+$title[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$getUserBadges[$findUser[$message]];House Balance;<:badgeBalance:868611349540909098>];House Brilliance;<:badgeBrilliance:868611514624512023>];House Bravery;<:badgeBraveryHS:868611434412650496>];Nitro Classic;<:nitro_badge:879089786537787492>];, ;ﾠ]$username[$findUser[$message]]]
 $description[・Conta criada em: \`$creationDate[$findUser[$message]]\` | ($replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$creationDate[$findUser[$message];time];months;meses];weeks;semanas];days;dias];hours;horas];minutes;minutos];and;e];seconds;segundos];second;segundo];minute;minuto];year;ano];years;anos];week;semana];day;dia];month;mês])
 
 ・Entrou no servidor em: \`$creationDate[$findUser[$message]]\` | ($replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$creationDate[$findUser[$message];time];months;meses];weeks;semanas];days;dias];hours;horas];minutes;minutos];and;e];seconds;segundos];second;segundo];minute;minuto];year;ano];years;anos];week;semana];day;dia];month;mês])
@@ -22,7 +22,7 @@ $cooldown[5s;🙆‍♀️・Vai com calma pequeno caçador. Espere %time% para 
 $elseif[$getServerVar[lang]==en]
 
 $thumbnail[$userAvatar[$findUser[$message]]]
-$author[$username[$findUser[$message]]]
+$title[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$getUserBadges[$findUser[$message]];House Balance;<:badgeBalance:868611349540909098>];House Brilliance;<:badgeBrilliance:868611514624512023>];House Bravery;<:badgeBraveryHS:868611434412650496>];Nitro Classic;<:nitro_badge:879089786537787492>];, ;ﾠ]$username[$findUser[$message]]]
 $description[・Account created at: \`$creationDate[$findUser[$message]]\` | ($creationDate[$findUser[$message];time])
 
 ・Joined here at: \`$memberJoinedDate[$findUser[$message]]\`
