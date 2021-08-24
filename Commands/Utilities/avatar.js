@@ -5,7 +5,7 @@ module.exports = ({
     code: `
   $if[$getServerVar[lang]==pt]
   
-  $apiMessage[$channelID;;{footer: Executed by $userTag}{title:Avatar de $username[$findUser[$message;yes]]}{image:$useravatar[$finduser[$message]]}{description:<@$findUser[$message;yes]> Que foto zika meu amigo!  Muito bom gosto :3!
+  $apiMessage[$channelID;;{footer: Executado por $userTag}{title:Avatar de $username[$findUser[$message;yes]]}{image:$useravatar[$finduser[$message]]}{description:<@$findUser[$message;yes]> Que foto zika meu amigo!  Muito bom gosto :3!
 
     __Downloads nos Botões:__}$addTimestamp{color:#1ad46d;{actionRow:WEBP,2,5,$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$userAvatar[$findUser[$message]];gif;webp];png;webp];jpg;webp];jpeg;webp];?size=2048;?size=4096];:;#COLON#]}{actionRow:PNG,2,5,$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$userAvatar[$findUser[$message]];gif;png];jpg;png];jpeg;png];webp;png];?size=2048;?size=4096];:;#COLON#]}
     {actionRow:JPG,2,5,$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$userAvatar[$findUser[$message]];gif;jpg];png;jpg];jpeg;jpg];webp;jpg];?size=2048;?size=4096];:;#COLON#]}
