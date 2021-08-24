@@ -30,16 +30,16 @@ client.channels.cache.get('866058091228168193').send(`${user.tag} votou, agora t
 }) 
 
 //Configurando a Database
-const mongoose = require('mongoose')
+const mongoose = require('mongoose');
 const mongo = require('dbdjs.mongo').default
-mongo.createModel('main')
+mongo.createModel('main');
 
 mongoose.connect(mongodb+srv://admin:ourkRhzFj5HF0jHv@cluster0.esodi.mongodb.net/myFirstDatabase?retryWrites=true&w=majorityL, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false,
   keepAlive: true
-})
+});
 
 //Configurando o Client da Aoi.js
 
