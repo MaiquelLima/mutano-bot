@@ -34,7 +34,7 @@ const mongoose = require('mongoose');
 const mongo = require('dbdjs.mongo').default
 mongo.createModel('main');
 
-mongoose.connect(mongodb+srv://admin:ourkRhzFj5HF0jHv@cluster0.esodi.mongodb.net/myFirstDatabase?retryWrites=true&w=majorityL, {
+mongoose.connect("mongodb+srv://admin:ourkRhzFj5HF0jHv@cluster0.esodi.mongodb.net/myFirstDatabase?retryWrites=true&w=majorityL", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false,
