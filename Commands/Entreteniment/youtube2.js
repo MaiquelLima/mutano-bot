@@ -9,8 +9,8 @@ module.exports = ({
     client.discordTogether.createTogetherCode('$voiceID', 'youtube').then(async invite => {
      return message.channel.send("<:youtube:879760132916007002>・**Here is your invitation to watch YouTube:** " + invite.code)
      });]
-    $onlyIf[$voiceID!=;\:x:・You are not connected to a voice channel]
-    $onlyIf[$hasPerms[$authorID;speak]==true;\:x:・You are not allowed to speak]
+     $onlyIf[$hasPerms[$authorID;speak]==true;\:x:・You are not allowed to speak]
+     $onlyIf[$voiceID!=;\:x:・You are not connected to a voice channel]
     $onlyIf[$getServerVar[lang]==en;]
     `
 })
