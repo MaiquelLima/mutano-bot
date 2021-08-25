@@ -30,7 +30,7 @@ Fui criado: \`06 de outubro de 2020 às 15 horas 46 minutos e 25 segundos (horá
 Estou vivo à: \`$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$creationDate[$clientID;time];months;meses];weeks;semanas];days;dias];hours;horas];minutes;minutos];and;e];seconds;segundos];second;segundo];minute;minuto];year;ano];years;anos];week;semana];day;dia];month;mês]\`
 
 __**CRIADOR**__
-\`$username[852616816240885760]#$discriminator[852616816240885760]\` | \`852616816240885760\`}{footer:Solicitado por $username}{color:#1ad46d};{actionRow:WebSite Oficial,2,5,$replaceText[https://mutanobot.site/;:;#COLON#];;no]
+\`$username[852616816240885760]#$discriminator[852616816240885760]\` | \`852616816240885760\` | [GitHub - guihrib](https://github.com/guihrib)}{footer:Solicitado por $username}{color:#1ad46d};{actionRow:WebSite Oficial,2,5,$replaceText[https://mutanobot.site/;:;#COLON#];;no]
 $onlyIf[$getGlobalUserVar[bl;$authorID]==yes;**:x: » Você está na minha blacklist, não pode executar meus comandos!**]
 $cooldown[5s;🙆‍♀️・Vai com calma pequeno caçador. Espere %time% para executar meus comandos comandos]
 $elseif[$getServerVar[lang]==en]
@@ -60,7 +60,7 @@ I was created: \`October 06, 2020 at 15 hours 46 minutes and 25 seconds (Brasíl
 I am alive to: \`$creationDate[$clientID;time]\`
 
 __**CREATOR**__
-\`$username[852616816240885760]#$discriminator[852616816240885760]\` | \`852616816240885760\`}{footer:Asked by $username}{color:#1ad46d};{actionRow:Oficial WebSite,2,5,$replaceText[https://mutanobot.site/;:;#COLON#];;no]
+\`$username[852616816240885760]#$discriminator[852616816240885760]\` | \`852616816240885760\` | [GitHub - guihrib](https://github.com/guihrib)}{footer:Asked by $username}{color:#1ad46d};{actionRow:Oficial WebSite,2,5,$replaceText[https://mutanobot.site/;:;#COLON#];;no]
 $onlyIf[$getGlobalUserVar[bl;$authorID]==yes;**:x: You are in my blacklist, so you can't execute my commands!**]
 $cooldown[5s;️🙆‍♀️・Take it easy, little hunter. Wait %time% to execute my commands]
 $endelseif

@@ -18,10 +18,7 @@ __**Criado em:**__
 \`06 de outubro de 2020\`
 
 __**CRIADOR**__
-\`$username[852616816240885760]#$discriminator[852616816240885760]\` | \`852616816240885760\`
-
-__**UPTIME**__
-\`$uptime\`}{footer:Solicitado por $username}{color:#1ad46d};{actionRow:WebSite Oficial,2,5,$replaceText[https://mutanobot.site/;:;#COLON#];;no]
+\`$username[852616816240885760]#$discriminator[852616816240885760]\` | \`852616816240885760\` | [GitHub - guihrib](https://github.com/guihrib)}{footer:Solicitado por $username}{color:#1ad46d};{actionRow:WebSite Oficial,2,5,$replaceText[https://mutanobot.site/;:;#COLON#];;no]
 $onlyIf[$getGlobalUserVar[bl;$authorID]==yes;**:x: » Você está na minha blacklist, não pode executar meus comandos!**]
 $cooldown[5s;️🙆‍♀️・Vai com calma pequeno caçador. Espere %time% para executar meus comandos]
 $elseif[$getServerVar[lang]==en]
@@ -39,7 +36,7 @@ __**Created in:**__
 \`October 06, 2020\`
 
 __**CREATOR**__
-\`$username[852616816240885760]#$discriminator[852616816240885760]\` | \`852616816240885760\`}{footer:Asked by $username}{color:#1ad46d};{actionRow:Oficial WebSite,2,5,$replaceText[https://mutanobot.site/;:;#COLON#];;no]
+\`$username[852616816240885760]#$discriminator[852616816240885760]\` | \`852616816240885760\` | [GitHub - guihrib](https://github.com/guihrib)}{footer:Asked by $username}{color:#1ad46d};{actionRow:Oficial WebSite,2,5,$replaceText[https://mutanobot.site/;:;#COLON#];;no]
 $onlyIf[$getGlobalUserVar[bl;$authorID]==yes;**:x: You are in my blacklist, so you can't execute my commands!**]
 $cooldown[5s;️🙆‍♀️・Take it easy, little hunter. Wait %time% to execute my commands]
 $endelseif
