@@ -19,14 +19,12 @@ Emojis: \`$emojiCount\`
 Cargos: \`$roleCount\`
 Cargo mais alto: \`$roleName[$highestServerRole]\`
 
-__**Membros**__
-Total: **$membersCount**
-Humanos: **$sub[$membersCount;$botCount]**
-Bots: **$botCount**
 
 __**Canais:($channelCount)**__
 Texto: \`$channelCount[text]\`
 Voz: \`$channelCount[voice]\`
+
+__**Membros: ($membersCount)**__
 
 __**Nitro**__
 \`🚀\` Boosts: \`$serverBoostCount\`
@@ -57,10 +55,7 @@ __**Channels:{$channelCount}**__
 Text: \`$channelCount[text]\`
 Voice: \`$channelCount[voice]\`
 
-__**Members**__
-All: **$membersCount**
-Humans: **$sub[$membersCount;$botCount]**
-Bots: **$botCount**
+__**Members: ($membersCount)**__
 
 __**Nitro**__
 \`🚀\` Boosts: \`$serverBoostCount\`

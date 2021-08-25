@@ -15,10 +15,10 @@ $description[\`\`\`Abaixo se encontram meus comandos e as descrições deles. Es
 \`help\` | \`botinfo\` | \`tech-botinfo\` | \`invite\` | \`setlang\` | \`setprefix\` | \`ping\` | \`status\` | \`versão\` | \`uptime\`
 
 \`😂\` __**ENTRETENIMENTO**__
-\`say\` | \`8ball\` | \`jockey-pô\` | \`ship\` | \`piada\` | \`pressf\` | \`gay\` | \`gado\` | \`abraçar\` | \`youtube\`
+\`say\` | \`8ball\` | \`jockey-pô\` | \`ship\` | \`piada\` | \`pressf\` | \`gay\` | \`gado\` | \`abraçar\` | \`youtube\` | \`beijar\`
 
 \`🌄\` __**IMAGENS**__
-\`trash\` | \`drake\` | \`impostor\` | \`poof\` | \`stonks\` | \`triggered\` | \`trump\` | \`pixel\` | \`sepia\` | \`grey\` | \`blurple\` | \`negativo\` | \`prisao\`
+\`trash\` | \`drake\` | \`impostor\` | \`poof\` | \`stonks\` | \`triggered\` | \`trump\` | \`pixel\` | \`sepia\` | \`grey\` | \`blurple\` | \`negativo\` | \`prisao\` | \`circulo\`
 
 \`🔨\` __**CONFIGURÁVEIS**__
 \`set-anuncios\`
@@ -51,7 +51,7 @@ $description[\`\`\`You can check my commands and their descriptions right below.
 \`say\` | \`8ball\` | \`jockey-pô\` | \`ship\` | \`joke\` | \`pressf\` | \`gay\` | \`cattle\` | \`hug\` | \`youtube\`
 
 \`🌄\` __**IMAGES**__
-\`trash\` | \`drake\` | \`imposter\` | \`poof\` | \`stonks\` | \`triggered\` | \`trump\` | \`pixelate\` | \`sepia\` | \`greyscale\` | \`blurple\` | \`negative\` | \`jail\`
+\`trash\` | \`drake\` | \`imposter\` | \`poof\` | \`stonks\` | \`triggered\` | \`trump\` | \`pixelate\` | \`sepia\` | \`greyscale\` | \`blurple\` | \`negative\` | \`jail\` | \`circle\`
 
 \`🔨\` __**CONFIGURABLES**__
 \`set-announcements\`

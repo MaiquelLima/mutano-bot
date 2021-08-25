@@ -13,21 +13,22 @@ Para mais informações use: \`$getServerVar[chamada]versão\` para ver minha ve
 Gostou? Teve dúvidas? Entre no meu servidor de suporte usando \`$getServerVar[chamada]suporte\`
 
 __**Dados de Armazenamento e Velocidade**__
-Banco de Dados: \`dbdjs.db\`
-Hospedagem: \`Heroku\`
-CPU: \`$cpu%\`
-Memória RAM: \`$ramMB\`
+・Banco de Dados: \`mongo.db\`
+・Hospedagem: \`Heroku\`
+・CPU: \`$cpu%\`
+・Memória RAM: \`$ramMB\`
 
 __**Fui feito em:**__
-[Aoi.js](https://aoi.js.org/) na linguagem [JavaScript](https://developer.mozilla.org/pt-BR/docs/orphaned/Web/JavaScript) usando [Node.js](https://nodejs.org/pt-br/about/)
+・[Aoi.js](https://aoi.js.org/) na linguagem [JavaScript](https://developer.mozilla.org/pt-BR/docs/orphaned/Web/JavaScript) usando [Node.js](https://nodejs.org/pt-br/about/)
 
 __**Versões**__
-PackageLib: \`$packageVersion\`
-Node.js: \`$nodeVersion\`
+・PackageLib: \`$packageVersion\`
+・Node.js: \`$nodeVersion\`
 
 __**Minhas Datas**__
-Fui criado: \`06 de outubro de 2020 às 15 horas 46 minutos e 25 segundos (horário de Brasília - BR)\`
-Estou vivo à: \`$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$creationDate[$clientID;time];months;meses];weeks;semanas];days;dias];hours;horas];minutes;minutos];and;e];seconds;segundos];second;segundo];minute;minuto];year;ano];years;anos];week;semana];day;dia];month;mês]\`
+・Fui criado: \`06 de outubro de 2020 às 15 horas 46 minutos e 25 segundos (horário de Brasília - BR)\`
+・Estou vivo à: \`$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$creationDate[$clientID;time];months;meses];weeks;semanas];days;dias];hours;horas];minutes;minutos];and;e];seconds;segundos];second;segundo];minute;minuto];year;ano];years;anos];week;semana];day;dia];month;mês]\`
+・Entrei aqui em: \`$memberJoinedDate[$clientID]\` | ($replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$memberJoinedDate[$clientID;time];months;meses];weeks;semanas];days;dias];hours;horas];minutes;minutos];and;e];seconds;segundos];second;segundo];minute;minuto];year;ano];years;anos];week;semana];day;dia];month;mês])
 
 __**CRIADOR**__
 \`$username[852616816240885760]#$discriminator[852616816240885760]\` | \`852616816240885760\` | [GitHub - guihrib](https://github.com/guihrib)}{footer:Solicitado por $username}{color:#1ad46d};{actionRow:WebSite Oficial,2,5,$replaceText[https://mutanobot.site/;:;#COLON#];;no]
@@ -43,21 +44,22 @@ For more information use: \`$getServerVar[chamada]version\` to see my version, \
 Did you liked me? Have any doubts? Join my support server using: \`$getServerVar[chamada]support\`
 
 __**Storage & Speed Data**__
-Database: \`dbdjs.db\`
-Hosting: \`Heroku\`
-CPU: \`$cpu%\`
-RAM Memory: \`$ramMB\`
+・Database: \`mongo.db\`
+・Hosting: \`Heroku\`
+・CPU: \`$cpu%\`
+・RAM Memory: \`$ramMB\`
 
 __**I was made in:**__
-[Aoi.js](https://aoi.js.org/) in [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) language using [Node.js](https://nodejs.org/en/about/)
+・[Aoi.js](https://aoi.js.org/) in [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) language using [Node.js](https://nodejs.org/en/about/)
 
 __**Versions**__
-PackageLib: \`$packageVersion\`
-Node.js: \`$nodeVersion\`
+・PackageLib: \`$packageVersion\`
+・Node.js: \`$nodeVersion\`
 
 __**My Dates**__
-I was created: \`October 06, 2020 at 15 hours 46 minutes and 25 seconds (Brasília - BR time)\`
-I am alive to: \`$creationDate[$clientID;time]\`
+・I was created: \`October 06, 2020 at 15 hours 46 minutes and 25 seconds (Brasília - BR time)\`
+・I am alive to: \`$creationDate[$clientID;time]\`
+・I joined here at: \`$memberJoinedDate[$clientID]\` | ($memberJoinerDate[$clientID;time])
 
 __**CREATOR**__
 \`$username[852616816240885760]#$discriminator[852616816240885760]\` | \`852616816240885760\` | [GitHub - guihrib](https://github.com/guihrib)}{footer:Asked by $username}{color:#1ad46d};{actionRow:Oficial WebSite,2,5,$replaceText[https://mutanobot.site/;:;#COLON#];;no]
