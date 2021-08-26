@@ -8,7 +8,7 @@ $apiMessage[$channelID;;{thumbnail:$userAvatar[763109929300262953]}{title:Minhas
 ID: \`763109929300262953\`
 \`\`\`Olá $username tudo bem? Estou torcendo que sim. Bem, meu nome é Mutano™ e sou um bot feito para ajudar e divertir vários servidores inclusive o meu favorito que se encontra o link dele no final da minha info. Estou muito feliz por estar aqui. Um pouco abaixo você vai ver uma informações legais sobre mim. E se precisar de mim pode me marcar.\`\`\`
 
-Para mais informações use: \`$getServerVar[chamada]versão\` para ver minha versão, \`$getServerVar[chamada]ping\` para ver minha latência \`$getServerVar[chamada]status\` e $getServerVar[chamada]uptime para ver minha status e meu uptime...
+Para mais informações use: \`$getServerVar[chamada]versão\` para ver minha versão, \`$getServerVar[chamada]ping\` para ver minha latência \`$getServerVar[chamada]status\` e \`$getServerVar[chamada]uptime\` para ver minha status e meu uptime...
 
 Ou se caso queira saber informações mais detalhadas e técnicas sobre mim, use: \`$getServerVar[chamada]tech-botinfo\`
 
