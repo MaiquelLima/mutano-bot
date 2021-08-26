@@ -65,4 +65,10 @@ module.exports = (bot) => {
         $clear[3]
          `
         })
+        bot.awaitedCommand ({
+            name: "userperms",
+            code: `
+            
+            `
+        })
 }
