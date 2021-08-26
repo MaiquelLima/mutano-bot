@@ -1,6 +1,6 @@
 {
   "name": "mutano",
-  "version": "2.6.3",
+  "version": "2.6.8",
   "description": "Um bot simples tentando trazer o melhor sendo multifuncional para seu servidor e feito em Aoi.js",
   "main": "index.js",
   "scripts": {
