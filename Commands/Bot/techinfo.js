@@ -12,7 +12,7 @@ Para mais informações use: \`$getServerVar[chamada]versão\` para ver minha ve
 
 Gostou? Teve dúvidas? Entre no meu servidor de suporte usando \`$getServerVar[chamada]suporte\`
 
-Ao total, $getVar[allUsedCmds] comandos foram executados em mim
+Ao total, $getVar[allUsedCmdsGlobal] comandos foram executados em mim
 
 __**Dados de Armazenamento e Velocidade**__
 ・Banco de Dados: \`mongo.db\`
@@ -45,7 +45,7 @@ For more information use: \`$getServerVar[chamada]version\` to see my version, \
 
 Did you liked me? Have any doubts? Join my support server using: \`$getServerVar[chamada]support\`
 
-In total, $getVar[allUsedCmds] commands were executed on me
+In total, $getVar[allUsedCmdsGlobal] commands were executed on me
 
 __**Storage & Speed Data**__
 ・Database: \`mongo.db\`
