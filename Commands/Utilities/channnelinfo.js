@@ -6,7 +6,7 @@ module.exports = ({
     $if[$getServerVar[lang]==pt]
     $thumbnail[$serverIcon]
 
-    $title[Informações do canal <#$findChannel[$message]>]
+    $author[Informações do canal <#$findChannel[$message]>]
     
     $addField[・ID:;\`$findChannel[$message]\`;yes]
     
@@ -24,7 +24,7 @@ module.exports = ({
     $elseif[$getServerVar[lang]==en]
     $thumbnail[$serverIcon]
 
-    $title[Channel Informations <#$findChannel[$message]>]
+    $author[Channel Informations <#$findChannel[$message]>]
     
     $addField[・ID:;\`$findChannel[$message]\`;yes]
     
