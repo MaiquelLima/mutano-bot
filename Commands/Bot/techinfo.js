@@ -12,6 +12,8 @@ Para mais informações use: \`$getServerVar[chamada]versão\` para ver minha ve
 
 Gostou? Teve dúvidas? Entre no meu servidor de suporte usando \`$getServerVar[chamada]suporte\`
 
+Ao total, $getVar[allUsedCmds] comandos foram executados em mim
+
 __**Dados de Armazenamento e Velocidade**__
 ・Banco de Dados: \`mongo.db\`
 ・Hospedagem: \`Heroku\`
@@ -42,6 +44,8 @@ ID: \`763109929300262953\`
 For more information use: \`$getServerVar[chamada]version\` to see my version, \`$getServerVar[chamada]ping\` to see my latency \`$getServerVar[chamada]status\` and \`$getServerVar[chamada]uptime\` to see my status and uptime...
 
 Did you liked me? Have any doubts? Join my support server using: \`$getServerVar[chamada]support\`
+
+In total, $getVar[allUsedCmds] commands were executed on me
 
 __**Storage & Speed Data**__
 ・Database: \`mongo.db\`

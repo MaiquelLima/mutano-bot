@@ -4,6 +4,7 @@ module.exports = (bot) => {
         chamada: "mt.",
         lang: "pt",
         usedCmds: "0",
+        allUsedCmds: "0",
         bl:"yes",
         enable:"yes",
         cWelcome: '',
