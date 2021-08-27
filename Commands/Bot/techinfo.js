@@ -17,14 +17,14 @@ Ao total, $getVar[allUsedCmdsGlobal] comandos foram executados em mim
 __**Dados de Armazenamento e Velocidade**__
 <:database:880841159537201162>・Banco de Dados: \`mongo.db\`
 <:host:880842799979851826>・Hospedagem: \`Heroku\`
-・CPU: \`$cpu%\`
-・Memória RAM: \`$ramMB\`
+<:CPU:880845389295681610>・CPU: \`$cpu%\`
+<:memory_ram:880845487861825557>・Memória RAM: \`$ramMB\`
 
 __**Fui feito em:**__
 ・[Aoi.js](https://aoi.js.org/) na linguagem [JavaScript](https://developer.mozilla.org/pt-BR/docs/orphaned/Web/JavaScript) usando [Node.js](https://nodejs.org/pt-br/about/)
 
 __**Versões**__
-・PackageLib: \`$packageVersion\`
+<:package:880845544250032209>・PackageLib: \`$packageVersion\`
 ・Node.js: \`$nodeVersion\`
 
 __**Minhas Datas**__
@@ -50,14 +50,14 @@ In total, $getVar[allUsedCmdsGlobal] commands were executed on me
 __**Storage & Speed Data**__
 <:database:880841159537201162>・Database: \`mongo.db\`
 <:host:880842799979851826>・Hosting: \`Heroku\`
-・CPU: \`$cpu%\`
-・RAM Memory: \`$ramMB\`
+<:CPU:880845389295681610>・CPU: \`$cpu%\`
+<:memory_ram:880845487861825557>・RAM Memory: \`$ramMB\`
 
 __**I was made in:**__
 ・[Aoi.js](https://aoi.js.org/) in [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) language using [Node.js](https://nodejs.org/en/about/)
 
 __**Versions**__
-・PackageLib: \`$packageVersion\`
+<:package:880845544250032209>・PackageLib: \`$packageVersion\`
 ・Node.js: \`$nodeVersion\`
 
 __**My Dates**__
