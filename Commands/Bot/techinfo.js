@@ -1,7 +1,7 @@
 module.exports = ({
     name: "tech",
     description: "Saiba as informações detalhadas e técnicas do Mutano™ :3",
-    aliases: ["techinfo", "tech-info", "bot-techinfo", "botinfo tec", "tecinfo", "tec-info", "tech-botinfo", "techbotinfo"],
+    aliases: ["techinfo", "tech-info", "bot-techinfo", "botinfo tec", "tecinfo", "tec-info", "tech-botinfo", "techbotinfo", "techbi"],
     code: `
 $if[$getServerVar[lang]==pt]
 $apiMessage[$channelID;;{thumbnail:$userAvatar[763109929300262953]}{title:Minhas Informações}{description:Tag: \`$userTag[763109929300262953]\`
