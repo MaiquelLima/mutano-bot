@@ -21,11 +21,11 @@ __**Dados de Armazenamento e Velocidade**__
 <:memory_ram:880845487861825557>・Memória RAM: \`$ramMB\`
 
 __**Fui feito em:**__
-・[Aoi.js](https://aoi.js.org/) na linguagem [JavaScript](https://developer.mozilla.org/pt-BR/docs/orphaned/Web/JavaScript) usando [Node.js](https://nodejs.org/pt-br/about/)
+<:javascript:880848223185551431>・[Aoi.js](https://aoi.js.org/) na linguagem [JavaScript](https://developer.mozilla.org/pt-BR/docs/orphaned/Web/JavaScript) usando [Node.js](https://nodejs.org/pt-br/about/)
 
 __**Versões**__
 <:package:880845544250032209>・PackageLib: \`$packageVersion\`
-・Node.js: \`$nodeVersion\`
+<:nodejs:880848360838418512>・Node.js: \`$nodeVersion\`
 
 __**Minhas Datas**__
 ・Fui criado: \`06 de outubro de 2020 às 15 horas 46 minutos e 25 segundos (horário de Brasília - BR)\`
@@ -54,11 +54,11 @@ __**Storage & Speed Data**__
 <:memory_ram:880845487861825557>・RAM Memory: \`$ramMB\`
 
 __**I was made in:**__
-・[Aoi.js](https://aoi.js.org/) in [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) language using [Node.js](https://nodejs.org/en/about/)
+<:javascript:880848223185551431>・[Aoi.js](https://aoi.js.org/) in [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) language using [Node.js](https://nodejs.org/en/about/)
 
 __**Versions**__
 <:package:880845544250032209>・PackageLib: \`$packageVersion\`
-・Node.js: \`$nodeVersion\`
+<:nodejs:880848360838418512>・Node.js: \`$nodeVersion\`
 
 __**My Dates**__
 ・I was created: \`October 06, 2020 at 15 hours 46 minutes and 25 seconds (Brasília - BR time)\`
