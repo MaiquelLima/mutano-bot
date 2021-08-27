@@ -87,7 +87,6 @@ bot.readyCommand({
 require('./utils/callbacks')(bot);
 require('./utils/variables')(bot);
 require('./utils/stats')(bot);
-require('./webAPI.js')(bot);
 
 // Logs de Comandos
 
