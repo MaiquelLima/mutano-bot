@@ -34,8 +34,8 @@ __**Minhas Datas**__
 
 __**DESENVOLVEDORES**__
 \`$username[852616816240885760]#$discriminator[852616816240885760]\` | \`852616816240885760\` | [GitHub - guihrib](https://github.com/guihrib)
-\`$username[852616816240885760]#$discriminator[857836846641578014]\` | \`857836846641578014\` | [GitHub - KrulDev](https://github.com/KrulDev)
-\`$username[852616816240885760]#$discriminator[711969991427227729]\` | \`711969991427227729\` | [GitHub - Bayziofc](https://github.com/Bayziofc)}{footer:Solicitado por $username}{color:#1ad46d};{actionRow:WebSite Oficial,2,5,$replaceText[https://mutanobot.site/;:;#COLON#];;no]
+\`$username[857836846641578014]#$discriminator[857836846641578014]\` | \`857836846641578014\` | [GitHub - KrulDev](https://github.com/KrulDev)
+\`$username[711969991427227729]#$discriminator[711969991427227729]\` | \`711969991427227729\` | [GitHub - Bayziofc](https://github.com/Bayziofc)}{footer:Solicitado por $username}{color:#1ad46d};{actionRow:WebSite Oficial,2,5,$replaceText[https://mutanobot.site/;:;#COLON#];;no]
 $onlyIf[$getGlobalUserVar[bl;$authorID]==yes;**:x: » Você está na minha blacklist, não pode executar meus comandos!**]
 $cooldown[5s;🙆‍♀️・Vai com calma pequeno caçador. Espere %time% para executar meus comandos comandos]
 $elseif[$getServerVar[lang]==en]
@@ -69,8 +69,8 @@ __**My Dates**__
 
 __**DEVELOPERS**__
 \`$username[852616816240885760]#$discriminator[852616816240885760]\` | \`852616816240885760\` | [GitHub - guihrib](https://github.com/guihrib)
-\`$username[852616816240885760]#$discriminator[857836846641578014]\` | \`857836846641578014\` | [GitHub - KrulDev](https://github.com/KrulDev)
-\`$username[852616816240885760]#$discriminator[711969991427227729]\` | \`711969991427227729\` | [GitHub - Bayziofc](https://github.com/Bayziofc)}{footer:Asked by $username}{color:#1ad46d};{actionRow:Oficial WebSite,2,5,$replaceText[https://mutanobot.site/;:;#COLON#];;no]
+\`$username[857836846641578014]#$discriminator[857836846641578014]\` | \`857836846641578014\` | [GitHub - KrulDev](https://github.com/KrulDev)
+\`$username[711969991427227729]#$discriminator[711969991427227729]\` | \`711969991427227729\` | [GitHub - Bayziofc](https://github.com/Bayziofc)}{footer:Asked by $username}{color:#1ad46d};{actionRow:Oficial WebSite,2,5,$replaceText[https://mutanobot.site/;:;#COLON#];;no]
 $onlyIf[$getGlobalUserVar[bl;$authorID]==yes;**:x: You are in my blacklist, so you can't execute my commands!**]
 $cooldown[5s;️🙆‍♀️・Take it easy, little hunter. Wait %time% to execute my commands]
 $endelseif
