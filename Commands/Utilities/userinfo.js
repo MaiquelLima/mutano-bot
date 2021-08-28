@@ -16,6 +16,9 @@ $description[・Conta criada em: \`$creationDate[$findUser[$message]]\` | ($repl
 
 $addField[・Tag do Discord;\`$userTag[$findUser[$message]]\`;yes]
 $addField[・ID;\`$findUser[$message]\`;yes]
+$image[$replaceText[$replaceText[$checkCondition[$get[banner]==null];true;https://cdn.discordapp.com/attachments/858905592801656853/867814690482028564/banner_invisible.png];false;$replaceText[$get[banner];?size=1024;?size=4096]]]
+$let[banner;$jsonRequest[https://cryptons.ga/api/v1/userbanner?id=$get[user];url;error]]
+$let[user;$findMember[$message]]
 $color[#1ad46d]
 $footer[Solicitado por $username[$authorID];$authorAvatar]
 
@@ -35,6 +38,9 @@ $description[・Account created at: \`$creationDate[$findUser[$message]]\` | ($c
 
 $addField[・Discord Tag;\`$userTag[$findUser[$message]]\`;yes]
 $addField[・ID;\`$findUser[$message]\`;yes]
+$image[$replaceText[$replaceText[$checkCondition[$get[banner]==null];true;https://cdn.discordapp.com/attachments/858905592801656853/867814690482028564/banner_invisible.png];false;$replaceText[$get[banner];?size=1024;?size=4096]]]
+$let[banner;$jsonRequest[https://cryptons.ga/api/v1/userbanner?id=$get[user];url;error]]
+$let[user;$findMember[$message]]
 $color[#1ad46d]
 $footer[Asked by $username[$authorID];$authorAvatar]
 $cooldown[5s;🙆‍♀️・Take it easy ,little hunter. wait %time% to execute my commands again!]
