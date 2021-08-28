@@ -12,6 +12,7 @@ $description[・Conta criada em: \`$creationDate[$findUser[$message]]\` | ($repl
 
 ・Este usuário usou \`$getGlobalUserVar[usedCmdsUser;$findUser[$message]]\` comandos meus
 
+
 $addField[・Apelido;\`$nickname[$findUser[$message]]\`;yes]
 $addField[・Tag do Discord;\`$userTag[$findUser[$message]]\`;yes]
 $addField[・ID;\`$findUser[$message]\`;yes]
@@ -32,6 +33,7 @@ $description[・Account created at: \`$creationDate[$findUser[$message]]\` | ($c
 ・Joined here at: \`$memberJoinedDate[$findUser[$message]]\` | ($memberJoinerDate[$findUser[$message];time])
 
 ・This user used \`$getGlobalUserVar[usedCmdsUser;$findUser[$message]]\` commands of mine
+
 
 $addField[・Nickname;\`$nickname[$findUser[$message]]\`;yes]
 $addField[・Discord Tag;\`$userTag[$findUser[$message]]\`;yes]
