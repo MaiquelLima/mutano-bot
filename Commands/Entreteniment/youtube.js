@@ -11,8 +11,8 @@ module.exports = ({
      });]
      $onlyIf[$hasPerms[$authorID;speak]==true;\:x:・Você não tem permissão para falar]
      $onlyIf[$voiceID!=;\:x:・Você não está conectado em um canal de voz]
-    $onlyIf[$getServerVar[lang]==pt;]
-    $onlyIf[$getGlobalUserVar[bl;$authorID]==yes;**:x: » Você está na minha blacklist, não pode executar meus comandos!**]
-    $cooldown[5s;🙆‍♀️・Vai com calma pequeno caçador. Espere %time% para executar meus comandos]
+     $onlyIf[$getGlobalUserVar[bl;$authorID]==yes;**:x: » Você está na minha blacklist, não pode executar meus comandos!**]
+     $cooldown[5s;🙆‍♀️・Vai com calma pequeno caçador. Espere %time% para executar meus comandos]
+     $onlyIf[$getServerVar[lang]==pt;]
     `
 })
