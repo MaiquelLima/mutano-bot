@@ -10,10 +10,9 @@ $description[・Conta criada em: \`$creationDate[$findUser[$message]]\` | ($repl
 
 ・Entrou no servidor em: \`$memberJoinedDate[$findUser[$message]]\` | ($replacetext[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$memberJoinedDate[$findUser[$message];time];months;meses];weeks;semanas];days;dias];hours;horas];minutes;minutos];and;e];seconds;segundos];second;segundo];minute;minuto];year;ano];years;anos];week;semana];day;dia];month;mês];hour;hora])
 
-・Posição de entrada: \`$replaceText[$replaceText[$replaceText[$replaceText[$memberJoinPosition[$findUser[$message]];st; ];nd; ];rd; ];th; ]\`
-
 ・Este usuário usou \`$getGlobalUserVar[usedCmdsUser;$findUser[$message]]\` comandos meus
 
+$addField[・Apelido;\`$nickname[$findUser[$message]]\`;yes]
 $addField[・Tag do Discord;\`$userTag[$findUser[$message]]\`;yes]
 $addField[・ID;\`$findUser[$message]\`;yes]
 $image[$replaceText[$replaceText[$checkCondition[$get[banner]==null];true;https://cdn.discordapp.com/attachments/858905592801656853/867814690482028564/banner_invisible.png];false;$replaceText[$get[banner];?size=1024;?size=4096]]]
@@ -32,10 +31,9 @@ $description[・Account created at: \`$creationDate[$findUser[$message]]\` | ($c
 
 ・Joined here at: \`$memberJoinedDate[$findUser[$message]]\` | ($memberJoinerDate[$findUser[$message];time])
 
-・Joined position: \`$memberJoinPosition[$findUser[$message]]\`
-
 ・This user used \`$getGlobalUserVar[usedCmdsUser;$findUser[$message]]\` commands of mine
 
+$addField[・Nickname;\`$nickname[$findUser[$message]]\`;yes]
 $addField[・Discord Tag;\`$userTag[$findUser[$message]]\`;yes]
 $addField[・ID;\`$findUser[$message]\`;yes]
 $image[$replaceText[$replaceText[$checkCondition[$get[banner]==null];true;https://cdn.discordapp.com/attachments/858905592801656853/867814690482028564/banner_invisible.png];false;$replaceText[$get[banner];?size=1024;?size=4096]]]
