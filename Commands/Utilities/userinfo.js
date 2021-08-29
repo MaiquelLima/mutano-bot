@@ -13,9 +13,10 @@ $description[・Conta criada em: \`$creationDate[$findUser[$message]]\` | ($repl
 ・Este usuário usou \`$getGlobalUserVar[usedCmdsUser;$findUser[$message]]\` comandos meus
 
 
-$addField[・Apelido;\`$nickname[$findUser[$message]]\`;yes]
-$addField[・Tag do Discord;\`$userTag[$findUser[$message]]\`;yes]
-$addField[・ID;\`$findUser[$message]\`;yes]
+
+$addField[<:hashtag:881651918504599583>・Tag do Discord;\`$userTag[$findUser[$message]]\`;yes]
+$addField[<:bookmark:881652285187452969>・ID;\`$findUser[$message]\`;yes]
+$addField[<:cartao:881652052097372210>・Apelido;\`$nickname[$findUser[$message]]\`;yes]
 $image[$replaceText[$replaceText[$checkCondition[$get[banner]==null];true;https://cdn.discordapp.com/attachments/858905592801656853/867814690482028564/banner_invisible.png];false;$replaceText[$get[banner];?size=1024;?size=4096]]]
 $let[banner;$jsonRequest[https://cryptons.ga/api/v1/userbanner?id=$get[user];url;error]]
 $let[user;$findMember[$message]]
