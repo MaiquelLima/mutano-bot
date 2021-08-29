@@ -6,11 +6,12 @@ module.exports = ({
 $if[$getServerVar[lang]==pt]
 $thumbnail[$userAvatar[$findUser[$message]]]
 $title[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$getUserBadges[$findUser[$message]];House Balance;<:badgeBalance:868611349540909098>];House Brilliance;<:badgeBrilliance:868611514624512023>];House Bravery;<:badgeBraveryHS:868611434412650496>];Nitro Classic;<:nitro_badge:879089786537787492>];Nitro Boosting;<:boosting:868612238687232061>];Early Verified Developer;<:Developer:879150639916146698>];Verified Developer;<:Developer:879150639916146698>];Verified Bot;<:botTag:744239056954851470>];, ;ﾠ];none;ﾠ]ﾠ$username[$findUser[$message]]]
-$description[・Conta criada em: \`$creationDate[$findUser[$message]]\` | ($replacetext[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$creationDate[$findUser[$message];time];months;meses];weeks;semanas];days;dias];hours;horas];minutes;minutos];and;e];seconds;segundos];second;segundo];minute;minuto];year;ano];years;anos];week;semana];day;dia];month;mês];hour;hora])
+$description[<:info:880926597740380220>・Datas
+Conta criada em: \`$creationDate[$findUser[$message]]\` | ($replacetext[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$creationDate[$findUser[$message];time];months;meses];weeks;semanas];days;dias];hours;horas];minutes;minutos];and;e];seconds;segundos];second;segundo];minute;minuto];year;ano];years;anos];week;semana];day;dia];month;mês];hour;hora])
 
-・Entrou no servidor em: \`$memberJoinedDate[$findUser[$message]]\` | ($replacetext[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$memberJoinedDate[$findUser[$message];time];months;meses];weeks;semanas];days;dias];hours;horas];minutes;minutos];and;e];seconds;segundos];second;segundo];minute;minuto];year;ano];years;anos];week;semana];day;dia];month;mês];hour;hora])
+Entrou no servidor em: \`$memberJoinedDate[$findUser[$message]]\` | ($replacetext[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$memberJoinedDate[$findUser[$message];time];months;meses];weeks;semanas];days;dias];hours;horas];minutes;minutos];and;e];seconds;segundos];second;segundo];minute;minuto];year;ano];years;anos];week;semana];day;dia];month;mês];hour;hora])
 
-・Este usuário usou \`$getGlobalUserVar[usedCmdsUser;$findUser[$message]]\` comandos meus
+Este usuário usou \`$getGlobalUserVar[usedCmdsUser;$findUser[$message]]\` comandos meus
 
 
 
