@@ -15,7 +15,7 @@ Gostou? Teve dúvidas? Entre no meu servidor de suporte usando \`$getServerVar[c
 Ao total, $getVar[allUsedCmdsGlobal] comandos foram executados em mim
 
 __**Dados de Armazenamento e Velocidade**__
-<:database:880841159537201162>・Banco de Dados: \`Mongo.db\`
+<:database:880841159537201162>・Banco de Dados: \`MongoDB\`
 <:host:880842799979851826>・Hospedagem: \`Heroku\`
 <:CPU:880845389295681610>・CPU: \`$cpu%\`
 <:memory_ram:880845487861825557>・Memória RAM: \`$ramMB\`
@@ -50,7 +50,7 @@ Did you liked me? Have any doubts? Join my support server using: \`$getServerVar
 In total, $getVar[allUsedCmdsGlobal] commands were executed on me
 
 __**Storage & Speed Data**__
-<:database:880841159537201162>・Database: \`Mongo.db\`
+<:database:880841159537201162>・Database: \`MongoDB\`
 <:host:880842799979851826>・Hosting: \`Heroku\`
 <:CPU:880845389295681610>・CPU: \`$cpu%\`
 <:memory_ram:880845487861825557>・RAM Memory: \`$ramMB\`
