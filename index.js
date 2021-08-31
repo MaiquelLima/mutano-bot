@@ -32,7 +32,7 @@ client.channels.cache.get('866058091228168193').send(`${user.tag} votou, agora t
 //Configurando a Database
 const mongoose = require('mongoose');
 const mongo = require('dbdjs.mongo').default
-mongo.createModel('datas');
+mongo.createModel('main');
 
 mongoose.connect(process.env.URLDB, {
   useNewUrlParser: true,
