@@ -15,7 +15,7 @@ $description[\`\`\`Abaixo se encontram meus comandos e as descrições deles. Es
 \`help\` | \`botinfo\` | \`tech-botinfo\` | \`invite\` | \`setlang\` | \`setprefix\` | \`ping\` | \`status\` | \`versão\` | \`uptime\`
 
 \`😂\` __**ENTRETENIMENTO**__
-\`say\` | \`8ball\` | \`jockey-pô\` | \`ship\` | \`piada\` | \`pressf\` | \`gay\` | \`gado\` | \`abraçar\` | \`youtube\` | \`beijar\` | \`dado\`
+\`say\` | \`8ball\` | \`jockey-pô\` | \`ship\` | \`piada\` | \`pressf\` | \`gay\` | \`gado\` | \`abraçar\` | \`youtube\` | \`beijar\` | \`dado\` | \`piscada\`
 
 \`🌄\` __**IMAGENS**__
 \`trash\` | \`drake\` | \`impostor\` | \`poof\` | \`stonks\` | \`triggered\` | \`trump\` | \`pixel\` | \`sepia\` | \`grey\` | \`blurple\` | \`negativo\` | \`prisao\` | \`circulo\`
@@ -48,7 +48,7 @@ $description[\`\`\`You can check my commands and their descriptions right below.
 \`help\` | \`botinfo\` | \`tech-botinfo\` | \`invite\` | \`changelang\` | \`setprefix\` | \`ping\` | \`stats\` | \`version\` | \`uptime\`
 
 \`😂\` __**ENTERTAINMENT**__
-\`say\` | \`8ball\` | \`jockey-pô\` | \`ship\` | \`joke\` | \`pressf\` | \`gay\` | \`cattle\` | \`hug\` | \`youtube\` | \`kiss\` | \`dice\`
+\`say\` | \`8ball\` | \`jockey-pô\` | \`ship\` | \`joke\` | \`pressf\` | \`gay\` | \`cattle\` | \`hug\` | \`youtube\` | \`kiss\` | \`dice\` | \`wink\`
 
 \`🌄\` __**IMAGES**__
 \`trash\` | \`drake\` | \`imposter\` | \`poof\` | \`stonks\` | \`triggered\` | \`trump\` | \`pixelate\` | \`sepia\` | \`greyscale\` | \`blurple\` | \`negative\` | \`jail\` | \`circle\`
