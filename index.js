@@ -2,32 +2,7 @@
 require('dotenv/config');
 /* Ultilização da aoi.JS */
 const Aoijs = require("aoi.js")
-const { Client, Intents, MessageEmbed } = require("discord.js")
-const Discord = require("discord.js");
-const embeds = new Discord.MessageEmbed()
-const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
-client.on('message',async message  => {
-//caso for o canal de logs-votos:
-if(message.channel.id === "786272202034380840"){
-  //verificando se é o devcenter que enviou:
-  if(message.author.id !== "768495280189341790")return;
-  
-var verif = (message.embeds[0].footer.text).split('_')
-// ${verif[0]}: para pegar o id do user
-//${verif[1]}: para pegar quantos votos seu bot ganhou (caso o user ser vip irá ser 2)
-//${verif[2]}: quantos votos seu bot tem
-var verifbot = (message.embeds[0].title)
-// verificando se é seu bot:
-if(verifbot.includes(client.user.tag)){
-  
-var user = client.users.cache.get(verif[0]) || await client.users.fetch(verif[0])
-user.send(`Obrigado por votar!`)
-client.channels.cache.get('866058091228168193').send(`${user.tag} votou, agora tenho: ${verif[2]} votos na Dev Center`)
-
-}
-
-}
-})  
+const Discordjs = require("discord.js");
 
 //Configurando a Database
 const mongoose = require('mongoose');
