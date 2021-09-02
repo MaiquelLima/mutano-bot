@@ -1,6 +1,6 @@
 module.exports = (bot) => {
     bot.variables({
-        version: "2.6.8 beta",
+        version: "2.7.2 beta",
         chamada: "mt.",
         lang: "pt",
         usedCmdsUser: "0",
