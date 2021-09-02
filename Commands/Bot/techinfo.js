@@ -66,7 +66,7 @@ __**Versions**__
 __**My Dates**__
 ・I was created: \`October 06, 2020 at 15 hours 46 minutes and 25 seconds (Brasília - BR time)\`
 ・I am alive to: \`$creationDate[$clientID;time]\`
-・I joined here at: \`$memberJoinedDate[$clientID]\` | ($memberJoinerDate[$clientID;time])
+・I joined here at: \`$memberJoinedDate[$clientID]\` | ($memberJoinedDate[$clientID;time])
 
 __**DEVELOPERS**__
 \`$username[852616816240885760]#$discriminator[852616816240885760]\` | \`852616816240885760\` | [GitHub - guihrib](https://github.com/guihrib)
