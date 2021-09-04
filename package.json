@@ -12,7 +12,7 @@
   "author": "gr",
   "license": "ISC",
   "dependencies": {
-    "aoi.js": "5.0.0@dev",
+    "aoi.js": "^5.0.0-dev.a8e054f.1630771757",
     "mongoose": "5.13.8",
     "dbdjs.mongo": "1.0.1",
     "@discordjs/voice": "^0.6.0",
