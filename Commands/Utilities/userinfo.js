@@ -19,7 +19,7 @@ $addField[<:bookmark:881652285187452969>・ID;\`$findUser[$message]\`;yes]
 $addField[<:cartao:881652052097372210>・Apelido;\`$nickname[$findUser[$message]]\`;yes]
 $let[banner;$jsonRequest[https://cryptons.ga/api/v1/userbanner?id=$get[user];url;error]]
 $let[user;$findMember[$message]]
-$image[$replaceText[$get[banner];?size=1024;?size=4096]]
+$image[$replaceText[$get[banner];?size=1024;?size=4096]
 $color[#1ad46d]
 $footer[Solicitado por $username[$authorID];$authorAvatar]
 
