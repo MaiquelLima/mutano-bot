@@ -28,7 +28,7 @@ const bot = new Aoijs.Bot({
   shardAmount: 0,
   autoUpdate: false,
   fetchInvites: false,
-  suppressAllErrors: true,
+  suppressAllErrors: false,
   debugs:{
     interpreter:true
   },
