@@ -3,7 +3,7 @@ module.exports = ({
     descrption: "Quer saber mais informações sobre um determinado canal? Com esse comando você pode! 😉",
     aliases: ["ci"],
     code: `
-    $if[$getServerVar[lang]==pt]
+
     $thumbnail[$serverIcon]
 
     $title[Informações do canal]
@@ -22,26 +22,6 @@ module.exports = ({
     $color[#1ad46d]
     $onlyIf[$getGlobalUserVar[bl;$authorID]==yes;**:x: » Você está na minha blacklist, não pode executar meus comandos!**]
     $cooldown[5s;🙆‍♀️・Vai com calma pequeno caçador. Espere %time% para executar meus comandos]
-    $elseif[$getServerVar[lang]==en]
-    $thumbnail[$serverIcon]
-
-    $title[Channel Informations]
-    $description[**<#$findChannel[$message]>**]
     
-    $addField[・ID:;\`$findChannel[$message]\`;yes]
-    
-    $addField[・Mention:;\`<#$findChannel[$message]>\`;yes]
-    
-    $addField[・Channel Name:;$channelName[$findChannel[$message]];yes]
-    
-    $addField[・Created at:;\`$creationDate[$findChannel[$message]]\` | ($creationDate[$findChannel[$message];time])
-    
-    $addTimestamp
-    $footer[Solicitado por $username;$authorAvatar]
-    $color[#1ad46d]
-    $onlyIf[$getGlobalUserVar[bl;$authorID]==yes;**:x: You are in my blacklist, so you can't execute my commands!**]
-    $cooldown[5s;🙆‍♀️・Take it easy, little hunter. Wait %time% to execute my commands]
-    $endelseif
-    $endif`
-
+    `
 })
