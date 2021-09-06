@@ -18,7 +18,7 @@ $addField[\`👥\` **Usuários:**;\`$allMembersCount\`;yes]
 
 $addField[\`🌎\` **Servidores:**;\`$serverCount\`;yes]
 
-$addField[\`📝\` **Comandos:**;\`$sub[$commandsCount;4]\`;yes]
+$addField[\`📝\` **Comandos:**;\`$sub[$commandsCount;8]\`;yes]
 $onlyIf[$getGlobalUserVar[bl;$authorID]==yes;{description: **:x: » Você está na minha blacklist, não pode executar meus comandos!**}{color: #ff0000}]
 $cooldown[5s;🙆‍♀️・Vai com calma pequeno caçador. Espere %time% para executar meus comandos comandos]
     `

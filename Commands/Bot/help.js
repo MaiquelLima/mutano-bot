@@ -8,7 +8,7 @@ $title[Lista de Comandos]
 $description[\`\`\`Abaixo se encontram meus comandos e as descrições deles. Espero que goste!\`\`\`
 \`💚\` Obrigado por me utilizar :3
 
-**Ao total tenho: $sub[$commandsCount;4] Comandos**
+**Ao total tenho: $sub[$commandsCount;8] Comandos**
 
 \`🐯\` __**BOT**__
 \`help\` | \`botinfo\` | \`tech-botinfo\` | \`invite\` | \`setprefix\` | \`ping\` | \`status\` | \`versão\` | \`uptime\`
