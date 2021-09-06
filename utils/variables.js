@@ -26,7 +26,7 @@ module.exports = (bot) => {
         analise: "",
         banco: "0",
         carteira: "0",
-        empregos: "nenhum",
+        emprego: "nenhum",
         about: "",
         banner: "https://cdn.discordapp.com/banners/774864664504434708/dc5fb592cb52da91d166a28877b6227a.png?size=4096"
     })
