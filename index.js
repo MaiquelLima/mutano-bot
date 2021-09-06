@@ -53,8 +53,8 @@ bot.loadCommands(`./Commands/`)
 // Log no console de ready :3
 
 bot.readyCommand({
-    channel: "",
-    code: `$log[Ligado no usuário $userTag[$clientID]]`
+  channel: "",
+  code: `$log[Ligado no usuário $userTag[$clientID]]`
 })
 
 // Chamando dados das variáveis, status e da webAPI para a index
@@ -62,6 +62,7 @@ bot.readyCommand({
 require('./utils/callbacks')(bot);
 require('./utils/variables')(bot);
 require('./utils/stats')(bot);
+require('./webAPI.js')(bot);
 
 // Logs de Comandos
 
