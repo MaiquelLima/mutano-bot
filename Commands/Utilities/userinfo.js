@@ -46,7 +46,7 @@ $footer[Solicitado por $username[$authorID];$authorAvatar]
 
 $onlyIf[$getGlobalUserVar[bl;$authorID]==yes;**:x: » Você está na minha blacklist, não pode executar meus comandos!**]
 $cooldown[5s;🙆‍♀️・Vai com calma pequeno caçador. Espere %time% para executar meus comandos]
-$endif
 $endelseif
+$endif
 `
 })
