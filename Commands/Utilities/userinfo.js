@@ -3,7 +3,6 @@ module.exports = ({
     description: "Exibe as informações de um usuário...",
     aliases: ["ui", "user"],
     code: `
-
 $thumbnail[$userAvatar[$findUser[$message]]]
 $title[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$getUserBadges[$findUser[$message]];House Balance;<:badgeBalance:868611349540909098>];House Brilliance;<:badgeBrilliance:868611514624512023>];House Bravery;<:badgeBraveryHS:868611434412650496>];Nitro Classic;<:nitro_badge:879089786537787492>];Nitro Boosting;<:boosting:868612238687232061>];Early Verified Developer;<:Developer:879150639916146698>];Verified Developer;<:Developer:879150639916146698>];Verified Bot;<:botTag:744239056954851470>];, ;ﾠ];none;ﾠ]ﾠ$username[$findUser[$message]]]
 $description[<:info:880926597740380220>・Datas

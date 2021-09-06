@@ -3,7 +3,6 @@ module.exports = ({
     descrption: "Quer saber mais informações sobre um determinado canal? Com esse comando você pode! 😉",
     aliases: ["ci"],
     code: `
-
     $thumbnail[$serverIcon]
 
     $title[Informações do canal]

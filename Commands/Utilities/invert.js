@@ -3,7 +3,6 @@ module.exports = ({
     description: "Socorram marrocoS",
     aliases: ["invertertexto","revert","reverter","inverter-texto","reverter-texto","reverter-texto","invert-text","inverttext", "inverter"],
     code: `
-
 $addField[Invertido: «;$jsonRequest[https://api.devs-hub.xyz/reverse?text=$replaceText[$message; ;+;-1];reverse]]
 $addField[» Texto:;$message]
 $color[#1ad46d]
