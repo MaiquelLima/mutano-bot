@@ -141,9 +141,10 @@ app.get("/status", async(req, res) => {
   let channels   = client.guilds.cache
         .map((g) => g.channels.cache.size || 0)
         .reduce((x, y) => x + y, 0)
+  let version = client.variables.version
   let commands = client.bot_commands.array().length
  
-  res.json({ servers, users, channels, commands })
+  res.json({ servers, users, channels, commands, version })
   
 })
 
