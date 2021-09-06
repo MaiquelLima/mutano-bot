@@ -11,13 +11,13 @@ $description[\`\`\`Abaixo se encontram meus comandos e as descrições deles. Es
 **Ao total tenho: $sub[$commandsCount;4] Comandos**
 
 \`🐯\` __**BOT**__
-\`help\` | \`botinfo\` | \`tech-botinfo\` | \`invite\` | \`setlang\` | \`setprefix\` | \`ping\` | \`status\` | \`versão\` | \`uptime\`
+\`help\` | \`botinfo\` | \`tech-botinfo\` | \`invite\` | \`setprefix\` | \`ping\` | \`status\` | \`versão\` | \`uptime\`
 
 \`😂\` __**ENTRETENIMENTO**__
-\`say\` | \`8ball\` | \`jockey-pô\` | \`ship\` | \`piada\` | \`pressf\` | \`gay\` | \`gado\` | \`abraçar\` | \`youtube\` | \`beijar\` | \`dado\` | \`piscada\`
+\`say\` | \`8ball\` | \`jockey-pô\` | \`ship\` | \`piada\` | \`pressf\` | \`gay\` | \`gado\` | \`abraçar\` | \`youtube\` | \`beijar\` | \`dado\` | \`wink\`
 
 \`🌄\` __**IMAGENS**__
-\`trash\` | \`drake\` | \`impostor\` | \`poof\` | \`stonks\` | \`triggered\` | \`trump\` | \`pixel\` | \`sepia\` | \`grey\` | \`blurple\` | \`negativo\` | \`prisao\` | \`circulo\`
+\`trash\` | \`drake\` | \`impostor\` | \`poof\` | \`stonks\` | \`triggered\` | \`trump\` | \`pixel\` | \`sepia\` | \`grey\` | \`blurple\` | \`negativo\` | \`prisao\` | \`cirle\`
 
 \`🔨\` __**CONFIGURÁVEIS**__
 \`set-anuncios\`
