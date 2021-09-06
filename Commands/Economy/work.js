@@ -3,7 +3,7 @@ module.exports = ({
   description: "Bora trabalhar?",
   aliases: ["trabalhar", "trabalho", "w"],
   code: `
-  $setGlobalUserVar[TigerCoins;$random[1100;3600];$authorID]
+  $setGlobalUserVar[carteira;$random[1100;3600];$authorID]
   $if[$getGlobalUserVar[emprego;$authorID]==Caçador;]
   
   $author[$userTag[$authorID];$authorAvatar]
