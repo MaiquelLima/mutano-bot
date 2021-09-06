@@ -3,7 +3,6 @@ module.exports = ({
     description: "Piadas de tiozão kkk",
     aliases: ["piadas","joke","jokes","tiozão","tiozao","tiosao","tiosão"],
     code: `
-$if[$getServerVar[lang]==pt]
 $editIn[2s;$randomText[😊 O que a impressora disse para a outra?
 
 > ||:joy: Essa folha é tua ou é impressão minha?||;😊 Qual é o rei da horta?
@@ -39,26 +38,5 @@ $editIn[2s;$randomText[😊 O que a impressora disse para a outra?
 :thinking: Deixe-me pensar...
 $onlyIf[$getGlobalUserVar[bl;$authorID]==yes;**:x: » Você está na minha blacklist, não pode executar meus comandos!**]
 $cooldown[5s;🙆‍♀️・Vai com calma pequeno caçador. Espere %time% para executar meus comandos comandos]
-$elseif[$getServerVar[lang]==en]
-$editIn[2s;$randomText[😊 What are doldrums?
-
-> ||:joy: Barbie's bongos.||;
-😊 What do you call an alligator in a vest?
-
-> ||:joy: An investigator!||;
-😊 How do turtles talk to each other?
-
-> ||:joy: By using shell phones!||;
-😊 Why are teddy bears never hungry?
-
-> ||:joy: They are always stuffed!||;
-😊 Why did the spider go to the computer?
-
-> ||:joy: To check his web site.||]]
-:thinking: Thinking...
-$onlyIf[$getGlobalUserVar[bl;$authorID]==yes;**:x: You are in my blacklist, so you can't execute my commands!**]
-$cooldown[5s;🙆‍♀️・Take it easy, little hunter. Wait %time% to execute my commands]
-$endelseif
-$endif
     `
 })

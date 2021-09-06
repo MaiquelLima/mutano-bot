@@ -3,7 +3,6 @@ module.exports = ({
     description: "Ui ui... Alguém dando piscadinha por ai...",
     aliases: ["piscar", "piscada"],
     code: `
-$if[$getServerVar[lang]==pt]
 $author[$userTag[$authorID];$authorAvatar]
 $thumbnail[$userAvatar[$findUser[$message[1]]]
 $description[🥰 <@$findUser[$message]> recebeu uma piscadinha de <@$authorID> 😲]
@@ -30,7 +29,5 @@ $onlyIf[$checkContains[$findUser[$message];$authorID]==false;{description: \❌�
 $argsCheck[>1;{description: \❌・Mention or enter user ID to wink}{color: #ff0000}]
 $onlyIf[$getGlobalUserVar[bl;$authorID]==yes;**:x: You are in my blacklist, so you can't execute my commands!**]
 $cooldown[5s;🙆‍♀️・Take it easy, little hunter. Wait %time% to execute my commands]
-$endelseif
-$endif
     `
 })
